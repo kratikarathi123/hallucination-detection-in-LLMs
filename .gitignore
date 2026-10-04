@@ -1,15 +1,3 @@
-# Python virtual environment
-venv/
-.venv/
-
-# Python cache
-__pycache__/
-*.py[cod]
-
-# Generated data
-data/processed/*
-!data/processed/claims.json
-
 # Model/cache files
 *.bin
 *.safetensors
@@ -28,3 +16,6 @@ data/processed/*
 # OS files
 .DS_Store
 Thumbs.db
+
+# Pyserini cache
+.cache/
