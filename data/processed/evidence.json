@@ -1,0 +1,1202 @@
+[
+  {
+    "sample_id": 1,
+    "claim_id": 1,
+    "claim": "Penicillin was discovered by Alexander Fleming in 1928.",
+    "language": "en",
+    "evidence": [
+      {
+        "docid": "9949565#9",
+        "title": "Medical microbiology",
+        "text": "In 1929 Alexander Fleming developed the most commonly used antibiotic substance both at the time and now: penicillin.",
+        "relevance_score": 38.58790438138993,
+        "rank": 1,
+        "rerank_score": 0.8775232434272766
+      },
+      {
+        "docid": "11915839#3",
+        "title": "Sir Alexander Fleming College",
+        "text": "Fleming is named after Sir Alexander Fleming, the man who discovered penicillin.",
+        "relevance_score": 49.91973736231897,
+        "rank": 2,
+        "rerank_score": 0.8398388624191284
+      },
+      {
+        "docid": "560876#9",
+        "title": "Pharmaceutical industry",
+        "text": "In 1928, Alexander Fleming discovered the antibacterial effects of penicillin, but its exploitation for the treatment of human disease awaited the development of methods for its large scale production and purification. These were developed by a U.S. and British government-led consortium of pharmaceutical companies during the Second World War.",
+        "relevance_score": 42.614412300289004,
+        "rank": 3,
+        "rerank_score": 0.8337849378585815
+      },
+      {
+        "docid": "1937#9",
+        "title": "Alexander Fleming",
+        "text": "Fleming published his discovery in 1929, in the British \"Journal of Experimental Pathology,\" but little attention was paid to his article. Fleming continued his investigations, but found that cultivating \"Penicillium\" was quite difficult, and that after having grown the mould, it was even more difficult to isolate the antibiotic agent. Fleming's impression was that because of the problem of producing it in quantity, and because its action appeared to be rather slow, penicillin would not be important in treating infection. Fleming also became convinced that penicillin would not last long enough in the human body (\"in vivo\") to kill bacteria effectively. Many clinical tests were inconclusive, probably because it had been used as a surface antiseptic. In the 1930s, Fleming's trials occasionally showed more promise, but Fleming largely abandoned penicillin work, leaving Howard Florey and Ernst Boris Chain at the Radcliffe Infirmary in Oxford to take up research to mass-produce it, with funds from the U.S. and British governments. They started mass production after the bombing of Pearl Harbor. By D-Day in 1944, enough penicillin had been produced to treat all the wounded in the Allied forces.",
+        "relevance_score": 35.910895543336736,
+        "rank": 4,
+        "rerank_score": 0.8301256895065308
+      },
+      {
+        "docid": "369155#20",
+        "title": "Roaring Twenties",
+        "text": "For decades biologists had been at work on the medicine that became penicillin. In 1928, Scottish biologist Alexander Fleming discovered a substance that killed a number of disease-causing bacteria. In 1929, he named the new substance \"penicillin\". His publications were largely ignored at first, but it became a significant antibiotic in the 1930s. In 1930, Cecil George Paine, a pathologist at Sheffield Royal Infirmary, used penicillin to treat sycosis barbae, eruptions in beard follicles, but was unsuccessful. Moving on to ophthalmia neonatorum, a gonococcal infection in infants, he achieved the first recorded cure with penicillin, on November 25, 1930. He then cured four additional patients (one adult and three infants) of eye infections, but failed to cure a fifth.",
+        "relevance_score": 40.4452764069256,
+        "rank": 5,
+        "rerank_score": 0.8284269571304321
+      }
+    ]
+  },
+  {
+    "sample_id": 1,
+    "claim_id": 2,
+    "claim": "Fleming was a Scottish-born British bacteriologist.",
+    "language": "en",
+    "evidence": [
+      {
+        "docid": "30608937#0",
+        "title": "Alexander Fleming (disambiguation)",
+        "text": "Alexander Fleming (1881–1955) was a Scottish biologist and Master Mason",
+        "relevance_score": 28.370217553052335,
+        "rank": 1,
+        "rerank_score": 0.7903649806976318
+      },
+      {
+        "docid": "38391413#1",
+        "title": "Ronald Fleming",
+        "text": "Ronald Fleming was born in Scotland, the son of a doctor from Kelso.",
+        "relevance_score": 24.017843362835585,
+        "rank": 2,
+        "rerank_score": 0.7274999618530273
+      },
+      {
+        "docid": "53118469#0",
+        "title": "George Fleming (veterinarian)",
+        "text": "George Fleming (1833–1901) was a Scottish veterinary surgeon. He was a prolific writer, and supported the passing of the Veterinary Surgeons Act 1881, which regulated the profession, in his time as President of the Royal College of Veterinary Surgeons.",
+        "relevance_score": 24.09600244572168,
+        "rank": 3,
+        "rerank_score": 0.7033915519714355
+      },
+      {
+        "docid": "1937#4",
+        "title": "Alexander Fleming",
+        "text": "Fleming had been a private in the London Scottish Regiment of the Volunteer Force since 1900, and had been a member of the rifle club at the medical school. The captain of the club, wishing to retain Fleming in the team, suggested that he join the research department at St Mary's, where he became assistant bacteriologist to Sir Almroth Wright, a pioneer in vaccine therapy and immunology. In 1908, he gained a BSc degree with Gold Medal in Bacteriology, and became a lecturer at St Mary's until 1914.\nFleming served throughout World War I as a captain in the Royal Army Medical Corps, and was Mentioned in Dispatches. He and many of his colleagues worked in battlefield hospitals at the Western Front in France. In 1918 he returned to St Mary's Hospital, where he was elected Professor of Bacteriology of the University of London in 1928. In 1951 he was elected the Rector of the University of Edinburgh for a term of three years.",
+        "relevance_score": 29.165674038239583,
+        "rank": 4,
+        "rerank_score": 0.702218770980835
+      },
+      {
+        "docid": "1070305#0",
+        "title": "Robert Fleming (financier)",
+        "text": "Robert Fleming (1845 – 1933) was a Scottish financier and philanthropist. He was the founder of merchant bank Robert Fleming & Co.",
+        "relevance_score": 27.575548049976867,
+        "rank": 5,
+        "rerank_score": 0.6942906379699707
+      }
+    ]
+  },
+  {
+    "sample_id": 1,
+    "claim_id": 3,
+    "claim": "A mold called Penicillium notatum had contaminated a culture dish and had formed a circle around which bacteria were not growing.",
+    "language": "en",
+    "evidence": [
+      {
+        "docid": "1805#38",
+        "title": "Antibiotic",
+        "text": "In 1874, physician Sir William Roberts noted that cultures of the mold \"Penicillium glaucum\" that is used in the making of some types of blue cheese did not display bacterial contamination. In 1876, physicist John Tyndall also contributed to this field. Pasteur conducted research showing that \"Bacillus anthracis\" would not grow in the presence of the related mold \"Penicillium notatum\".",
+        "relevance_score": 45.23637107927499,
+        "rank": 1,
+        "rerank_score": 0.7361117601394653
+      },
+      {
+        "docid": "2409315#1",
+        "title": "Penicillium glaucum",
+        "text": "In 1874, Sir William Roberts, a physician from Manchester, noted that cultures of the mold did not display bacterial contamination. Louis Pasteur would build on this discovery, noting that \"Bacillus anthracis\" would not grow in the presence of the related mold \"Penicillium notatum\". Its antibiotic powers were independently discovered and tested on animals by French physician Ernest Duchesne, but his thesis in 1897 was ignored.",
+        "relevance_score": 57.09837466691918,
+        "rank": 2,
+        "rerank_score": 0.7334446907043457
+      },
+      {
+        "docid": "4578722#10",
+        "title": "History of penicillin",
+        "text": "In 1928, Scottish biologist Alexander Fleming noticed a halo of inhibition of bacterial growth around a contaminant blue-green mold on a \"Staphylococcus\" plate culture. He concluded that the mold was releasing a substance that was inhibiting bacterial growth. He grew a pure culture of the mold and subsequently concentrated what he later named \"penicillin\". During the next twelve years, Fleming grew and distributed the original mold, which was eventually identified as \"Penicillium notatum\" (now known as \"Penicillium chrysogenum\"). He was unsuccessful in making a stable form of it for mass production.",
+        "relevance_score": 68.80818656457132,
+        "rank": 3,
+        "rerank_score": 0.7148555517196655
+      },
+      {
+        "docid": "28830965#0",
+        "title": "Penicillium chrysogenum",
+        "text": "Penicillium chrysogenum or P. notatum (formerly) is a species of fungus in the genus \"Penicillium\". It is common in temperate and subtropical regions and can be found on salted food products, but it is mostly found in indoor environments, especially in damp or water-damaged buildings. It was previously known as Penicillium notatum. It has rarely been reported as a cause of human disease. It is the source of several β-lactam antibiotics, most significantly penicillin. Other secondary metabolites of \"P. chrysogenum\" include roquefortine C, meleagrin, chrysogine, xanthocillins, secalonic acids, sorrentanone, sorbicillin, and PR-toxin.",
+        "relevance_score": 47.35943117381125,
+        "rank": 4,
+        "rerank_score": 0.6950826644897461
+      },
+      {
+        "docid": "51469#14",
+        "title": "Mold",
+        "text": "Alexander Fleming's accidental discovery of the antibiotic penicillin involved a \"Penicillium\" mold called \"Penicillium notatum\" (although the species identity is disputed as possibly being \"Penicillium chrysogenum\" or \"Penicillium rubens\"). Fleming continued to investigate Penicillin, showing that it could inhibit various types of bacteria found in infections and other ailments, but he was unable to produce the compound in large enough amounts necessary for production of a medicine. His work was expanded by a team at Oxford University; Clutterbuck, Lovell, and Raistrick, who began to work on the problem in 1931. This team was also unable to produce the pure compound in any large amount, and found that the purification process diminished its effectiveness and negated the anti-bacterial properties it had.",
+        "relevance_score": 65.36172167048048,
+        "rank": 5,
+        "rerank_score": 0.6850125789642334
+      }
+    ]
+  },
+  {
+    "sample_id": 1,
+    "claim_id": 4,
+    "claim": "Fleming's discovery led to the discovery of the antibiotic properties of the mold.",
+    "language": "en",
+    "evidence": [
+      {
+        "docid": "1805#41",
+        "title": "Antibiotic",
+        "text": "In 1928, Sir Alexander Fleming postulated the existence of penicillin, a molecule produced by certain molds that kills or stops the growth of certain kinds of bacteria. Fleming was working on a culture of disease-causing bacteria when he noticed the spores of a green mold, \"Penicillium chrysogenum\", in one of his culture plates. He observed that the presence of the mold killed or prevented the growth of the bacteria. Fleming postulated that the mold must secrete an antibacterial substance, which he named penicillin in 1928. Fleming believed that its antibacterial properties could be exploited for chemotherapy. He initially characterized some of its biological properties, and attempted to use a crude preparation to treat some infections, but he was unable to pursue its further development without the aid of trained chemists.",
+        "relevance_score": 71.3989362474313,
+        "rank": 1,
+        "rerank_score": 0.7823978662490845
+      },
+      {
+        "docid": "4502#11",
+        "title": "Biotechnology",
+        "text": "Biotechnology has also led to the development of antibiotics. In 1928, Alexander Fleming discovered the mold \"Penicillium\". His work led to the purification of the antibiotic compound formed by the mold by Howard Florey, Ernst Boris Chain and Norman Heatley – to form what we today know as penicillin. In 1940, penicillin became available for medicinal use to treat bacterial infections in humans.",
+        "relevance_score": 68.4694919942254,
+        "rank": 2,
+        "rerank_score": 0.7820450663566589
+      },
+      {
+        "docid": "51469#14",
+        "title": "Mold",
+        "text": "Alexander Fleming's accidental discovery of the antibiotic penicillin involved a \"Penicillium\" mold called \"Penicillium notatum\" (although the species identity is disputed as possibly being \"Penicillium chrysogenum\" or \"Penicillium rubens\"). Fleming continued to investigate Penicillin, showing that it could inhibit various types of bacteria found in infections and other ailments, but he was unable to produce the compound in large enough amounts necessary for production of a medicine. His work was expanded by a team at Oxford University; Clutterbuck, Lovell, and Raistrick, who began to work on the problem in 1931. This team was also unable to produce the pure compound in any large amount, and found that the purification process diminished its effectiveness and negated the anti-bacterial properties it had.",
+        "relevance_score": 70.79853312833626,
+        "rank": 3,
+        "rerank_score": 0.7325795888900757
+      },
+      {
+        "docid": "1937#9",
+        "title": "Alexander Fleming",
+        "text": "Fleming published his discovery in 1929, in the British \"Journal of Experimental Pathology,\" but little attention was paid to his article. Fleming continued his investigations, but found that cultivating \"Penicillium\" was quite difficult, and that after having grown the mould, it was even more difficult to isolate the antibiotic agent. Fleming's impression was that because of the problem of producing it in quantity, and because its action appeared to be rather slow, penicillin would not be important in treating infection. Fleming also became convinced that penicillin would not last long enough in the human body (\"in vivo\") to kill bacteria effectively. Many clinical tests were inconclusive, probably because it had been used as a surface antiseptic. In the 1930s, Fleming's trials occasionally showed more promise, but Fleming largely abandoned penicillin work, leaving Howard Florey and Ernst Boris Chain at the Radcliffe Infirmary in Oxford to take up research to mass-produce it, with funds from the U.S. and British governments. They started mass production after the bombing of Pearl Harbor. By D-Day in 1944, enough penicillin had been produced to treat all the wounded in the Allied forces.",
+        "relevance_score": 57.548016889490384,
+        "rank": 4,
+        "rerank_score": 0.7186251878738403
+      },
+      {
+        "docid": "4578722#1",
+        "title": "History of penicillin",
+        "text": "The Scottish physician Alexander Fleming was the first to suggest that a \"Penicillium\" mold must secrete an antibacterial substance, and the first to concentrate the active substance involved, which he named penicillin, in 1928. Penicillin was the first modern antibiotic. During the next twelve years Fleming grew, distributed, and studied the original mold, which was determined to be a rare variant of \"Penicillium notatum\" (now \"Penicillium chrysogenum\").",
+        "relevance_score": 63.62597054168027,
+        "rank": 5,
+        "rerank_score": 0.7129648923873901
+      }
+    ]
+  },
+  {
+    "sample_id": 1,
+    "claim_id": 5,
+    "claim": "Fleming named the substance 'penicillin'.",
+    "language": "en",
+    "evidence": [
+      {
+        "docid": "23312#16",
+        "title": "Penicillin",
+        "text": "Once Fleming made his discovery he grew a pure culture and discovered it was a \"Penicillium\" mould, now known as \"Penicillium chrysogenum\". Fleming coined the term \"penicillin\" to describe the filtrate of a broth culture of the \"Penicillium\" mould. Fleming asked C. J. La Touche to help identify the mould, which he incorrectly identified as \"Penicillium rubrum\" (later corrected by Charles Thom). He expressed initial optimism that penicillin would be a useful disinfectant, because of its high potency and minimal toxicity in comparison to antiseptics of the day, and noted its laboratory value in the isolation of \"Bacillus influenzae\" (now called \"Haemophilus influenzae\").",
+        "relevance_score": 31.398882696384316,
+        "rank": 1,
+        "rerank_score": 0.8803670406341553
+      },
+      {
+        "docid": "1937#13",
+        "title": "Alexander Fleming",
+        "text": "Fleming was modest about his part in the development of penicillin, describing his fame as the \"Fleming Myth\" and he praised Florey and Chain for transforming the laboratory curiosity into a practical drug. Fleming was the first to discover the properties of the active substance, giving him the privilege of naming it: penicillin. He also kept, grew, and distributed the original mould for twelve years, and continued until 1940 to try to get help from any chemist who had enough skill to make penicillin. But Sir Henry Harris said in 1998: \"Without Fleming, no Chain; without Chain, no Florey; without Florey, no Heatley; without Heatley, no penicillin.\"",
+        "relevance_score": 40.17260458587412,
+        "rank": 2,
+        "rerank_score": 0.8629529476165771
+      },
+      {
+        "docid": "51469#14",
+        "title": "Mold",
+        "text": "Alexander Fleming's accidental discovery of the antibiotic penicillin involved a \"Penicillium\" mold called \"Penicillium notatum\" (although the species identity is disputed as possibly being \"Penicillium chrysogenum\" or \"Penicillium rubens\"). Fleming continued to investigate Penicillin, showing that it could inhibit various types of bacteria found in infections and other ailments, but he was unable to produce the compound in large enough amounts necessary for production of a medicine. His work was expanded by a team at Oxford University; Clutterbuck, Lovell, and Raistrick, who began to work on the problem in 1931. This team was also unable to produce the pure compound in any large amount, and found that the purification process diminished its effectiveness and negated the anti-bacterial properties it had.",
+        "relevance_score": 26.37562935687464,
+        "rank": 3,
+        "rerank_score": 0.8559868335723877
+      },
+      {
+        "docid": "9949565#9",
+        "title": "Medical microbiology",
+        "text": "In 1929 Alexander Fleming developed the most commonly used antibiotic substance both at the time and now: penicillin.",
+        "relevance_score": 42.26458070044528,
+        "rank": 4,
+        "rerank_score": 0.8526948690414429
+      },
+      {
+        "docid": "1937#9",
+        "title": "Alexander Fleming",
+        "text": "Fleming published his discovery in 1929, in the British \"Journal of Experimental Pathology,\" but little attention was paid to his article. Fleming continued his investigations, but found that cultivating \"Penicillium\" was quite difficult, and that after having grown the mould, it was even more difficult to isolate the antibiotic agent. Fleming's impression was that because of the problem of producing it in quantity, and because its action appeared to be rather slow, penicillin would not be important in treating infection. Fleming also became convinced that penicillin would not last long enough in the human body (\"in vivo\") to kill bacteria effectively. Many clinical tests were inconclusive, probably because it had been used as a surface antiseptic. In the 1930s, Fleming's trials occasionally showed more promise, but Fleming largely abandoned penicillin work, leaving Howard Florey and Ernst Boris Chain at the Radcliffe Infirmary in Oxford to take up research to mass-produce it, with funds from the U.S. and British governments. They started mass production after the bombing of Pearl Harbor. By D-Day in 1944, enough penicillin had been produced to treat all the wounded in the Allied forces.",
+        "relevance_score": 31.77144273606777,
+        "rank": 5,
+        "rerank_score": 0.8370112180709839
+      }
+    ]
+  },
+  {
+    "sample_id": 2,
+    "claim_id": 1,
+    "claim": "Machine learning is a subset of artificial intelligence.",
+    "language": "en",
+    "evidence": [
+      {
+        "docid": "233488#58",
+        "title": "Machine learning",
+        "text": "Artificial Intelligence: A Modern Approach (3rd Edition)",
+        "relevance_score": 41.79724284282685,
+        "rank": 1,
+        "rerank_score": 0.8809520602226257
+      },
+      {
+        "docid": "1164#16",
+        "title": "Artificial intelligence",
+        "text": "Machine learning, a fundamental concept of AI research since the field's inception, is the study of computer algorithms that improve automatically through experience.",
+        "relevance_score": 41.00146753236206,
+        "rank": 2,
+        "rerank_score": 0.8590551614761353
+      },
+      {
+        "docid": "53587467#19",
+        "title": "Outline of machine learning",
+        "text": "Artificial neural network",
+        "relevance_score": 35.20595561364312,
+        "rank": 3,
+        "rerank_score": 0.8342448472976685
+      },
+      {
+        "docid": "15874732#7",
+        "title": "Artificial intelligence marketing",
+        "text": "\"Machine learning is concerned with the design and development of algorithms and techniques that allow computers to \"learn\".\"",
+        "relevance_score": 39.23535905915422,
+        "rank": 4,
+        "rerank_score": 0.8071864247322083
+      },
+      {
+        "docid": "183403#48",
+        "title": "Learning",
+        "text": "Machine learning, a branch of artificial intelligence, concerns the construction and study of systems that can learn from data. For example, a machine learning system could be trained on email messages to learn to distinguish between spam and non-spam messages.",
+        "relevance_score": 45.29926701396904,
+        "rank": 5,
+        "rerank_score": 0.787155032157898
+      }
+    ]
+  },
+  {
+    "sample_id": 2,
+    "claim_id": 2,
+    "claim": "Machine learning enables software applications to become more accurate in predicting outcomes.",
+    "language": "en",
+    "evidence": [
+      {
+        "docid": "233488#47",
+        "title": "Machine learning",
+        "text": "Applications for machine learning include:",
+        "relevance_score": 30.662713014462327,
+        "rank": 1,
+        "rerank_score": 0.742507815361023
+      },
+      {
+        "docid": "53587467#2",
+        "title": "Outline of machine learning",
+        "text": "Applications of machine learning",
+        "relevance_score": 32.68918599851126,
+        "rank": 2,
+        "rerank_score": 0.7094470262527466
+      },
+      {
+        "docid": "233488#23",
+        "title": "Machine learning",
+        "text": "Reinforcement learning is an area of machine learning concerned with how software agents ought to take actions in an environment so as to maximize some notion of cumulative reward. Due to its generality, the field is studied in many other disciplines, such as game theory, control theory, operations research, information theory, simulation-based optimization, multi-agent systems, swarm intelligence, statistics and genetic algorithms. In machine learning, the environment is typically represented as a Markov Decision Process (MDP). Many reinforcement learning algorithms use dynamic programming techniques. Reinforcement learning algorithms do not assume knowledge of an exact mathematical model of the MDP, and are used when exact models are infeasible. Reinforcement learning algorithms are used in autonomous vehicles or in learning to play a game against a human opponent.",
+        "relevance_score": 32.078065473504104,
+        "rank": 3,
+        "rerank_score": 0.6329991817474365
+      },
+      {
+        "docid": "4472835#18",
+        "title": "Machine-dependent software",
+        "text": "Shepperd, M., Bowes, D., & Hall, T., 2014, Researcher bias: The use of machine learning in software defect prediction, Software Engineering, \"IEEE Transactions on\", 40(6), 603-616",
+        "relevance_score": 31.486138786896294,
+        "rank": 4,
+        "rerank_score": 0.624301552772522
+      },
+      {
+        "docid": "11613197#1",
+        "title": "Predictive informatics",
+        "text": "Predictive informatics enables researchers, analysts, physicians and decision-makers to aggregate and analyze disparate types of data, recognize patterns and trends within that data, and make more informed decisions in an effort to preemptively alter future outcomes.",
+        "relevance_score": 30.118546271675402,
+        "rank": 5,
+        "rerank_score": 0.615409255027771
+      }
+    ]
+  },
+  {
+    "sample_id": 2,
+    "claim_id": 3,
+    "claim": "Machine learning algorithms learn from and make predictions or decisions based on patterns and features in the data they process.",
+    "language": "en",
+    "evidence": [
+      {
+        "docid": "1514392#0",
+        "title": "Training, validation, and test sets",
+        "text": "In machine learning, the study and construction of algorithms that can learn from and make predictions on data is a common task. Such algorithms work by making data-driven predictions or decisions, through building a mathematical model from input data.",
+        "relevance_score": 89.52118502802732,
+        "rank": 1,
+        "rerank_score": 0.8140046000480652
+      },
+      {
+        "docid": "26685#61",
+        "title": "Statistics",
+        "text": "Machine Learning models are statistical and probabilistic models that captures patterns in the data through use of computational algorithms.",
+        "relevance_score": 58.10239062348346,
+        "rank": 2,
+        "rerank_score": 0.7949915528297424
+      },
+      {
+        "docid": "233488#25",
+        "title": "Machine learning",
+        "text": "Several learning algorithms aim at discovering better representations of the inputs provided during training. Classic examples include principal components analysis and cluster analysis. Feature learning algorithms, also called representation learning algorithms, often attempt to preserve the information in their input but also transform it in a way that makes it useful, often as a pre-processing step before performing classification or predictions. This technique allows reconstruction of the inputs coming from the unknown data-generating distribution, while not being necessarily faithful to configurations that are implausible under that distribution. This replaces manual feature engineering, and allows a machine to both learn the features and use them to perform a specific task.",
+        "relevance_score": 65.85231567277805,
+        "rank": 3,
+        "rerank_score": 0.7817610502243042
+      },
+      {
+        "docid": "233488#20",
+        "title": "Machine learning",
+        "text": "Supervised learning algorithms include classification and regression. Classification algorithms are used when the outputs are restricted to a limited set of values, and regression algorithms are used when the outputs may have any numerical value within a range. Similarity learning is an area of supervised machine learning closely related to regression and classification, but the goal is to learn from examples using a similarity function that measures how similar or related two objects are. It has applications in ranking, recommendation systems, visual identity tracking, face verification, and speaker verification.",
+        "relevance_score": 54.10008599610923,
+        "rank": 4,
+        "rerank_score": 0.7550696730613708
+      },
+      {
+        "docid": "233488#19",
+        "title": "Machine learning",
+        "text": "Supervised learning algorithms build a mathematical model of a set of data that contains both the inputs and the desired outputs. The data is known as training data, and consists of a set of training examples. Each training example has one or more inputs and a desired output, also known as a supervisory signal. In the case of semi-supervised learning algorithms, some of the training examples are missing the desired output. In the mathematical model, each training example is represented by an array or vector, and the training data by a matrix. Through iterative optimization of an objective function, supervised learning algorithms learn a function that can be used to predict the output associated with new inputs. An optimal function will allow the algorithm to correctly determine the output for inputs that were not a part of the training data. An algorithm that improves the accuracy of its outputs or predictions over time is said to have learned to perform that task.",
+        "relevance_score": 58.04648334436297,
+        "rank": 5,
+        "rerank_score": 0.7418919205665588
+      }
+    ]
+  },
+  {
+    "sample_id": 2,
+    "claim_id": 4,
+    "claim": "Machine learning includes supervised learning, unsupervised learning, semi-supervised learning, and reinforcement learning.",
+    "language": "en",
+    "evidence": [
+      {
+        "docid": "53587467#18",
+        "title": "Outline of machine learning",
+        "text": "Unsupervised learning",
+        "relevance_score": 84.55945156577482,
+        "rank": 1,
+        "rerank_score": 0.8278032541275024
+      },
+      {
+        "docid": "233488#26",
+        "title": "Machine learning",
+        "text": "Feature learning can be either supervised or unsupervised. In supervised feature learning, features are learned using labeled input data. Examples include artificial neural networks, multilayer perceptrons, and supervised dictionary learning. In unsupervised feature learning, features are learned with unlabeled input data. Examples include dictionary learning, independent component analysis, autoencoders, matrix factorization and various forms of clustering.",
+        "relevance_score": 108.00114078671393,
+        "rank": 2,
+        "rerank_score": 0.8270103335380554
+      },
+      {
+        "docid": "53587467#24",
+        "title": "Outline of machine learning",
+        "text": "Semi-supervised learning",
+        "relevance_score": 98.42986674647742,
+        "rank": 3,
+        "rerank_score": 0.8236713409423828
+      },
+      {
+        "docid": "53587467#14",
+        "title": "Outline of machine learning",
+        "text": "Supervised learning",
+        "relevance_score": 90.14008497966998,
+        "rank": 4,
+        "rerank_score": 0.8229331970214844
+      },
+      {
+        "docid": "53587467#13",
+        "title": "Outline of machine learning",
+        "text": "Reinforcement learning",
+        "relevance_score": 80.90862087652239,
+        "rank": 5,
+        "rerank_score": 0.7959157228469849
+      }
+    ]
+  },
+  {
+    "sample_id": 2,
+    "claim_id": 5,
+    "claim": "Machine learning involves the process of adjusting the parameters of the model to minimize errors between predicted and actual outcomes.",
+    "language": "en",
+    "evidence": [
+      {
+        "docid": "233488#10",
+        "title": "Machine learning",
+        "text": "Machine learning also has intimate ties to optimization: many learning problems are formulated as minimization of some loss function on a training set of examples. Loss functions express the discrepancy between the predictions of the model being trained and the actual problem instances (for example, in classification, one wants to assign a label to instances, and models are trained to correctly predict the pre-assigned labels of a set of examples). The difference between the two fields arises from the goal of generalization: while optimization algorithms can minimize the loss on a training set, machine learning is concerned with minimizing the loss on unseen samples.",
+        "relevance_score": 74.1823229633826,
+        "rank": 1,
+        "rerank_score": 0.7352229952812195
+      },
+      {
+        "docid": "19892153#5",
+        "title": "Online machine learning",
+        "text": "In the setting of supervised learning with the square loss function, the intent is to minimize the empirical loss,",
+        "relevance_score": 61.022013379920566,
+        "rank": 2,
+        "rerank_score": 0.6828209161758423
+      },
+      {
+        "docid": "233488#0",
+        "title": "Machine learning",
+        "text": "Machine learning (ML) is the scientific study of algorithms and statistical models that computer systems use to effectively perform a specific task without using explicit instructions, relying on models and inference instead. It is seen as a subset of artificial intelligence. Machine learning algorithms build a mathematical model of sample data, known as \"training data\", in order to make predictions or decisions without being explicitly programmed to perform the task. Machine learning algorithms are used in the applications of email filtering, detection of network intruders, and computer vision, where it is infeasible to develop an algorithm of specific instructions for performing the task. Machine learning is closely related to computational statistics, which focuses on making predictions using computers. The study of mathematical optimization delivers methods, theory and application domains to the field of machine learning. Data mining is a field of study within machine learning, and focuses on exploratory data analysis through unsupervised learning. In its application across business problems, machine learning is also referred to as predictive analytics.",
+        "relevance_score": 59.379124067994624,
+        "rank": 3,
+        "rerank_score": 0.6616774797439575
+      },
+      {
+        "docid": "233488#52",
+        "title": "Machine learning",
+        "text": "Classification machine learning models can be validated by accuracy estimation techniques like the Holdout method, which splits the data in a training and test set (conventionally 2/3 training set and 1/3 test set designation) and evaluates the performance of the training model on the test set. In comparison, the N-fold-cross-validation method randomly splits the data in k subsets where the k-1 instances of the data are used to train the model while the kth instance is used to test the predictive ability of the training model. In addition to the holdout and cross-validation methods, bootstrap, which samples n instances with replacement from the dataset, can be used to assess model accuracy.",
+        "relevance_score": 58.46548737967397,
+        "rank": 4,
+        "rerank_score": 0.6501784324645996
+      },
+      {
+        "docid": "233488#4",
+        "title": "Machine learning",
+        "text": "In unsupervised learning, the algorithm builds a mathematical model of a set of data which contains only inputs and no desired outputs. Unsupervised learning algorithms are used to find structure in the data, like grouping or clustering of data points. Unsupervised learning can discover patterns in the data, and can group the inputs into categories, as in feature learning. Dimensionality reduction is the process of reducing the number of \"features\", or inputs, in a set of data.",
+        "relevance_score": 61.2414742930321,
+        "rank": 5,
+        "rerank_score": 0.6350349187850952
+      }
+    ]
+  },
+  {
+    "sample_id": 2,
+    "claim_id": 6,
+    "claim": "Machine learning involves assessing how well the model performs on unseen data to ensure it generalizes well to new situations.",
+    "language": "en",
+    "evidence": [
+      {
+        "docid": "233488#9",
+        "title": "Machine learning",
+        "text": "Machine learning and data mining often employ the same methods and overlap significantly, but while machine learning focuses on prediction, based on \"known\" properties learned from the training data, data mining focuses on the discovery of (previously) \"unknown\" properties in the data (this is the analysis step of knowledge discovery in databases). Data mining uses many machine learning methods, but with different goals; on the other hand, machine learning also employs data mining methods as \"unsupervised learning\" or as a preprocessing step to improve learner accuracy. Much of the confusion between these two research communities (which do often have separate conferences and separate journals, ECML PKDD being a major exception) comes from the basic assumptions they work with: in machine learning, performance is usually evaluated with respect to the ability to \"reproduce known\" knowledge, while in knowledge discovery and data mining (KDD) the key task is the discovery of previously \"unknown\" knowledge. Evaluated with respect to known knowledge, an uninformed (unsupervised) method will easily be outperformed by other supervised methods, while in a typical KDD task, supervised methods cannot be used due to the unavailability of training data.",
+        "relevance_score": 42.24418449077214,
+        "rank": 1,
+        "rerank_score": 0.7170873284339905
+      },
+      {
+        "docid": "233488#28",
+        "title": "Machine learning",
+        "text": "Feature learning is motivated by the fact that machine learning tasks such as classification often require input that is mathematically and computationally convenient to process. However, real-world data such as images, video, and sensory data has not yielded to attempts to algorithmically define specific features. An alternative is to discover such features or representations through examination, without relying on explicit algorithms.",
+        "relevance_score": 39.5107576848603,
+        "rank": 2,
+        "rerank_score": 0.7154039144515991
+      },
+      {
+        "docid": "233488#52",
+        "title": "Machine learning",
+        "text": "Classification machine learning models can be validated by accuracy estimation techniques like the Holdout method, which splits the data in a training and test set (conventionally 2/3 training set and 1/3 test set designation) and evaluates the performance of the training model on the test set. In comparison, the N-fold-cross-validation method randomly splits the data in k subsets where the k-1 instances of the data are used to train the model while the kth instance is used to test the predictive ability of the training model. In addition to the holdout and cross-validation methods, bootstrap, which samples n instances with replacement from the dataset, can be used to assess model accuracy.",
+        "relevance_score": 44.038793014581906,
+        "rank": 3,
+        "rerank_score": 0.7041335105895996
+      },
+      {
+        "docid": "183403#48",
+        "title": "Learning",
+        "text": "Machine learning, a branch of artificial intelligence, concerns the construction and study of systems that can learn from data. For example, a machine learning system could be trained on email messages to learn to distinguish between spam and non-spam messages.",
+        "relevance_score": 40.808696102130526,
+        "rank": 4,
+        "rerank_score": 0.6991966962814331
+      },
+      {
+        "docid": "233488#34",
+        "title": "Machine learning",
+        "text": "Association rule learning is a rule-based machine learning method for discovering relationships between variables in large databases. It is intended to identify strong rules discovered in databases using some measure of \"interestingness\". This rule-based approach generates new rules as it analyzes more data. The ultimate goal, assuming the set of data is large enough, is to help a machine mimic the human brain’s feature extraction and abstract association capabilities for data that has not been categorized.",
+        "relevance_score": 42.118143121094306,
+        "rank": 5,
+        "rerank_score": 0.6976808905601501
+      }
+    ]
+  },
+  {
+    "sample_id": 2,
+    "claim_id": 7,
+    "claim": "Machine learning involves using the trained model to make predictions or take actions in real-world scenarios.",
+    "language": "en",
+    "evidence": [
+      {
+        "docid": "27260435#1",
+        "title": "Structured prediction",
+        "text": "Similar to commonly used supervised learning techniques, structured prediction models are typically trained by means of observed data in which the true prediction value is used to adjust model parameters. Due to the complexity of the model and the interrelations of predicted variables the process of prediction using a trained model and of training itself is often computationally infeasible and approximate inference and learning methods are used.",
+        "relevance_score": 41.02050002354491,
+        "rank": 1,
+        "rerank_score": 0.7227135896682739
+      },
+      {
+        "docid": "1514392#0",
+        "title": "Training, validation, and test sets",
+        "text": "In machine learning, the study and construction of algorithms that can learn from and make predictions on data is a common task. Such algorithms work by making data-driven predictions or decisions, through building a mathematical model from input data.",
+        "relevance_score": 45.767581814858225,
+        "rank": 2,
+        "rerank_score": 0.7137492895126343
+      },
+      {
+        "docid": "2291650#0",
+        "title": "Predictive learning",
+        "text": "Predictive learning is a technique of machine learning in which an agent tries to build a model of its environment by trying out different actions in various circumstances. It uses knowledge of the effects its actions appear to have, turning them into planning operators. These allow the agent to act purposefully in its world. Predictive learning is one attempt to learn with a minimum of pre-existing mental structure. It may have been inspired by Piaget's account of how children construct knowledge of the world by interacting with it. Gary Drescher's book 'Made-up Minds' was seminal for the area.",
+        "relevance_score": 42.54759550067148,
+        "rank": 3,
+        "rerank_score": 0.6962043642997742
+      },
+      {
+        "docid": "323392#19",
+        "title": "Theoretical computer science",
+        "text": "Machine learning is a scientific discipline that deals with the construction and study of algorithms that can learn from data. Such algorithms operate by building a model based on inputs and using that to make predictions or decisions, rather than following only explicitly programmed instructions.",
+        "relevance_score": 46.067818889651804,
+        "rank": 4,
+        "rerank_score": 0.6956591606140137
+      },
+      {
+        "docid": "1328050#58",
+        "title": "Sports betting",
+        "text": "Machine learning models can make predictions in real time based on data from numerous disparate sources, such as player performance, weather, fan sentiment, etc. Some models have shown accuracy slightly higher than domain experts. These models require a large amount of data that is comparable and well organized prior to analysis, which makes them particularly well suited to predicting the outcome of Esports matches, where large amounts of well structured data is available.",
+        "relevance_score": 37.13288779975169,
+        "rank": 5,
+        "rerank_score": 0.6948844194412231
+      }
+    ]
+  },
+  {
+    "sample_id": 2,
+    "claim_id": 8,
+    "claim": "Machine learning has numerous applications across various industries.",
+    "language": "en",
+    "evidence": [
+      {
+        "docid": "233488#47",
+        "title": "Machine learning",
+        "text": "Applications for machine learning include:",
+        "relevance_score": 30.662713014462327,
+        "rank": 1,
+        "rerank_score": 0.8833104372024536
+      },
+      {
+        "docid": "233488#24",
+        "title": "Machine learning",
+        "text": "Various processes, techniques and methods can be applied to one or more types of machine learning algorithms to enhance their performance.",
+        "relevance_score": 25.097613573394664,
+        "rank": 2,
+        "rerank_score": 0.8444421291351318
+      },
+      {
+        "docid": "55843837#1",
+        "title": "Automated machine learning",
+        "text": "Automated machine learning can target various stages of the machine learning process:",
+        "relevance_score": 30.43996595938073,
+        "rank": 3,
+        "rerank_score": 0.8208011388778687
+      },
+      {
+        "docid": "53587467#1",
+        "title": "Outline of machine learning",
+        "text": "Cross-disciplinary fields involving machine learning",
+        "relevance_score": 22.24704641654528,
+        "rank": 4,
+        "rerank_score": 0.813374400138855
+      },
+      {
+        "docid": "53587467#26",
+        "title": "Outline of machine learning",
+        "text": "Machine learning projects",
+        "relevance_score": 22.7505555884427,
+        "rank": 5,
+        "rerank_score": 0.8118706941604614
+      }
+    ]
+  },
+  {
+    "sample_id": 3,
+    "claim_id": 1,
+    "claim": "The capital of France is Paris.",
+    "language": "en",
+    "evidence": [
+      {
+        "docid": "61371#0",
+        "title": "Paris (disambiguation)",
+        "text": "Paris is the largest city and capital of France.",
+        "relevance_score": 32.75200440705713,
+        "rank": 1,
+        "rerank_score": 0.9096393585205078
+      },
+      {
+        "docid": "22989#44",
+        "title": "Paris",
+        "text": "As the capital of France, Paris is the seat of France's national government. For the executive, the two chief officers each have their own official residences, which also serve as their offices. The President of the French Republic resides at the Élysée Palace in the 8th arrondissement, while the Prime Minister's seat is at the Hôtel Matignon in the 7th arrondissement. Government ministries are located in various parts of the city; many are located in the 7th arrondissement, near the Matignon.",
+        "relevance_score": 29.66859629008671,
+        "rank": 2,
+        "rerank_score": 0.7906402945518494
+      },
+      {
+        "docid": "22989#1",
+        "title": "Paris",
+        "text": "The City of Paris is the centre and seat of government of the Île-de-France, or Paris Region, which has an estimated official 2019 population of 12,213,64, or about 18 percent of the population of France. The larger Paris metropolitan area had a population of 12,532,901 in 2015. The Paris Region had a GDP of €681 billion (US$850 billion) in 2016, accounting for 31 percent of the GDP of France, and was the 5th largest region by GDP in the world. According to the Economist Intelligence Unit Worldwide Cost of Living Survey in 2018, Paris was the second-most expensive city in the world, behind Singapore and ahead of Zurich, Hong Kong, Oslo and Geneva.",
+        "relevance_score": 28.18462897179692,
+        "rank": 3,
+        "rerank_score": 0.7796393632888794
+      },
+      {
+        "docid": "22989#0",
+        "title": "Paris",
+        "text": "Paris () is the capital and most populous city of France, with an area of and an official estimated population of 2,140,526 residents as of 1 January 2019. Since the 17th century, Paris has been one of Europe's major centres of finance, commerce, fashion, science, and the arts.",
+        "relevance_score": 31.368840039459744,
+        "rank": 4,
+        "rerank_score": 0.7768123149871826
+      },
+      {
+        "docid": "3318101#0",
+        "title": "Economy of Paris",
+        "text": "Paris, including both the City of Paris and the Île-de-France region (Paris Region), is the most important center of economic activity in France, accounting for about thirty percent of the French GDP. The economy of the City of Paris, in the center of the Region, is based largely on services and commerce: of the 390,480 of its enterprises, 80.6 percent are engaged in commerce, transportation, and diverse services, 6.5 percent in construction, and just 3.8 percent in industry.",
+        "relevance_score": 28.166766791444807,
+        "rank": 5,
+        "rerank_score": 0.7726998925209045
+      }
+    ]
+  },
+  {
+    "sample_id": 4,
+    "claim_id": 1,
+    "claim": "Penicillin was discovered by Alexander Fleming in 1928.",
+    "language": "en",
+    "evidence": [
+      {
+        "docid": "9949565#9",
+        "title": "Medical microbiology",
+        "text": "In 1929 Alexander Fleming developed the most commonly used antibiotic substance both at the time and now: penicillin.",
+        "relevance_score": 38.58790438138993,
+        "rank": 1,
+        "rerank_score": 0.8775232434272766
+      },
+      {
+        "docid": "11915839#3",
+        "title": "Sir Alexander Fleming College",
+        "text": "Fleming is named after Sir Alexander Fleming, the man who discovered penicillin.",
+        "relevance_score": 49.91973736231897,
+        "rank": 2,
+        "rerank_score": 0.8398388624191284
+      },
+      {
+        "docid": "560876#9",
+        "title": "Pharmaceutical industry",
+        "text": "In 1928, Alexander Fleming discovered the antibacterial effects of penicillin, but its exploitation for the treatment of human disease awaited the development of methods for its large scale production and purification. These were developed by a U.S. and British government-led consortium of pharmaceutical companies during the Second World War.",
+        "relevance_score": 42.614412300289004,
+        "rank": 3,
+        "rerank_score": 0.8337849378585815
+      },
+      {
+        "docid": "1937#9",
+        "title": "Alexander Fleming",
+        "text": "Fleming published his discovery in 1929, in the British \"Journal of Experimental Pathology,\" but little attention was paid to his article. Fleming continued his investigations, but found that cultivating \"Penicillium\" was quite difficult, and that after having grown the mould, it was even more difficult to isolate the antibiotic agent. Fleming's impression was that because of the problem of producing it in quantity, and because its action appeared to be rather slow, penicillin would not be important in treating infection. Fleming also became convinced that penicillin would not last long enough in the human body (\"in vivo\") to kill bacteria effectively. Many clinical tests were inconclusive, probably because it had been used as a surface antiseptic. In the 1930s, Fleming's trials occasionally showed more promise, but Fleming largely abandoned penicillin work, leaving Howard Florey and Ernst Boris Chain at the Radcliffe Infirmary in Oxford to take up research to mass-produce it, with funds from the U.S. and British governments. They started mass production after the bombing of Pearl Harbor. By D-Day in 1944, enough penicillin had been produced to treat all the wounded in the Allied forces.",
+        "relevance_score": 35.910895543336736,
+        "rank": 4,
+        "rerank_score": 0.8301256895065308
+      },
+      {
+        "docid": "369155#20",
+        "title": "Roaring Twenties",
+        "text": "For decades biologists had been at work on the medicine that became penicillin. In 1928, Scottish biologist Alexander Fleming discovered a substance that killed a number of disease-causing bacteria. In 1929, he named the new substance \"penicillin\". His publications were largely ignored at first, but it became a significant antibiotic in the 1930s. In 1930, Cecil George Paine, a pathologist at Sheffield Royal Infirmary, used penicillin to treat sycosis barbae, eruptions in beard follicles, but was unsuccessful. Moving on to ophthalmia neonatorum, a gonococcal infection in infants, he achieved the first recorded cure with penicillin, on November 25, 1930. He then cured four additional patients (one adult and three infants) of eye infections, but failed to cure a fifth.",
+        "relevance_score": 40.4452764069256,
+        "rank": 5,
+        "rerank_score": 0.8284269571304321
+      }
+    ]
+  },
+  {
+    "sample_id": 4,
+    "claim_id": 2,
+    "claim": "Fleming was a Scottish-born British bacteriologist.",
+    "language": "en",
+    "evidence": [
+      {
+        "docid": "30608937#0",
+        "title": "Alexander Fleming (disambiguation)",
+        "text": "Alexander Fleming (1881–1955) was a Scottish biologist and Master Mason",
+        "relevance_score": 28.370217553052335,
+        "rank": 1,
+        "rerank_score": 0.7903649806976318
+      },
+      {
+        "docid": "38391413#1",
+        "title": "Ronald Fleming",
+        "text": "Ronald Fleming was born in Scotland, the son of a doctor from Kelso.",
+        "relevance_score": 24.017843362835585,
+        "rank": 2,
+        "rerank_score": 0.7274999618530273
+      },
+      {
+        "docid": "53118469#0",
+        "title": "George Fleming (veterinarian)",
+        "text": "George Fleming (1833–1901) was a Scottish veterinary surgeon. He was a prolific writer, and supported the passing of the Veterinary Surgeons Act 1881, which regulated the profession, in his time as President of the Royal College of Veterinary Surgeons.",
+        "relevance_score": 24.09600244572168,
+        "rank": 3,
+        "rerank_score": 0.7033915519714355
+      },
+      {
+        "docid": "1937#4",
+        "title": "Alexander Fleming",
+        "text": "Fleming had been a private in the London Scottish Regiment of the Volunteer Force since 1900, and had been a member of the rifle club at the medical school. The captain of the club, wishing to retain Fleming in the team, suggested that he join the research department at St Mary's, where he became assistant bacteriologist to Sir Almroth Wright, a pioneer in vaccine therapy and immunology. In 1908, he gained a BSc degree with Gold Medal in Bacteriology, and became a lecturer at St Mary's until 1914.\nFleming served throughout World War I as a captain in the Royal Army Medical Corps, and was Mentioned in Dispatches. He and many of his colleagues worked in battlefield hospitals at the Western Front in France. In 1918 he returned to St Mary's Hospital, where he was elected Professor of Bacteriology of the University of London in 1928. In 1951 he was elected the Rector of the University of Edinburgh for a term of three years.",
+        "relevance_score": 29.165674038239583,
+        "rank": 4,
+        "rerank_score": 0.702218770980835
+      },
+      {
+        "docid": "1070305#0",
+        "title": "Robert Fleming (financier)",
+        "text": "Robert Fleming (1845 – 1933) was a Scottish financier and philanthropist. He was the founder of merchant bank Robert Fleming & Co.",
+        "relevance_score": 27.575548049976867,
+        "rank": 5,
+        "rerank_score": 0.6942906379699707
+      }
+    ]
+  },
+  {
+    "sample_id": 4,
+    "claim_id": 3,
+    "claim": "A mold called Penicillium notatum had contaminated a culture dish and had formed a circle around which bacteria were not growing.",
+    "language": "en",
+    "evidence": [
+      {
+        "docid": "1805#38",
+        "title": "Antibiotic",
+        "text": "In 1874, physician Sir William Roberts noted that cultures of the mold \"Penicillium glaucum\" that is used in the making of some types of blue cheese did not display bacterial contamination. In 1876, physicist John Tyndall also contributed to this field. Pasteur conducted research showing that \"Bacillus anthracis\" would not grow in the presence of the related mold \"Penicillium notatum\".",
+        "relevance_score": 45.23637107927499,
+        "rank": 1,
+        "rerank_score": 0.7361117601394653
+      },
+      {
+        "docid": "2409315#1",
+        "title": "Penicillium glaucum",
+        "text": "In 1874, Sir William Roberts, a physician from Manchester, noted that cultures of the mold did not display bacterial contamination. Louis Pasteur would build on this discovery, noting that \"Bacillus anthracis\" would not grow in the presence of the related mold \"Penicillium notatum\". Its antibiotic powers were independently discovered and tested on animals by French physician Ernest Duchesne, but his thesis in 1897 was ignored.",
+        "relevance_score": 57.09837466691918,
+        "rank": 2,
+        "rerank_score": 0.7334446907043457
+      },
+      {
+        "docid": "4578722#10",
+        "title": "History of penicillin",
+        "text": "In 1928, Scottish biologist Alexander Fleming noticed a halo of inhibition of bacterial growth around a contaminant blue-green mold on a \"Staphylococcus\" plate culture. He concluded that the mold was releasing a substance that was inhibiting bacterial growth. He grew a pure culture of the mold and subsequently concentrated what he later named \"penicillin\". During the next twelve years, Fleming grew and distributed the original mold, which was eventually identified as \"Penicillium notatum\" (now known as \"Penicillium chrysogenum\"). He was unsuccessful in making a stable form of it for mass production.",
+        "relevance_score": 68.80818656457132,
+        "rank": 3,
+        "rerank_score": 0.7148555517196655
+      },
+      {
+        "docid": "28830965#0",
+        "title": "Penicillium chrysogenum",
+        "text": "Penicillium chrysogenum or P. notatum (formerly) is a species of fungus in the genus \"Penicillium\". It is common in temperate and subtropical regions and can be found on salted food products, but it is mostly found in indoor environments, especially in damp or water-damaged buildings. It was previously known as Penicillium notatum. It has rarely been reported as a cause of human disease. It is the source of several β-lactam antibiotics, most significantly penicillin. Other secondary metabolites of \"P. chrysogenum\" include roquefortine C, meleagrin, chrysogine, xanthocillins, secalonic acids, sorrentanone, sorbicillin, and PR-toxin.",
+        "relevance_score": 47.35943117381125,
+        "rank": 4,
+        "rerank_score": 0.6950826644897461
+      },
+      {
+        "docid": "51469#14",
+        "title": "Mold",
+        "text": "Alexander Fleming's accidental discovery of the antibiotic penicillin involved a \"Penicillium\" mold called \"Penicillium notatum\" (although the species identity is disputed as possibly being \"Penicillium chrysogenum\" or \"Penicillium rubens\"). Fleming continued to investigate Penicillin, showing that it could inhibit various types of bacteria found in infections and other ailments, but he was unable to produce the compound in large enough amounts necessary for production of a medicine. His work was expanded by a team at Oxford University; Clutterbuck, Lovell, and Raistrick, who began to work on the problem in 1931. This team was also unable to produce the pure compound in any large amount, and found that the purification process diminished its effectiveness and negated the anti-bacterial properties it had.",
+        "relevance_score": 65.36172167048048,
+        "rank": 5,
+        "rerank_score": 0.6850125789642334
+      }
+    ]
+  },
+  {
+    "sample_id": 4,
+    "claim_id": 4,
+    "claim": "Fleming's discovery led to the discovery of the antibiotic properties of the mold.",
+    "language": "en",
+    "evidence": [
+      {
+        "docid": "1805#41",
+        "title": "Antibiotic",
+        "text": "In 1928, Sir Alexander Fleming postulated the existence of penicillin, a molecule produced by certain molds that kills or stops the growth of certain kinds of bacteria. Fleming was working on a culture of disease-causing bacteria when he noticed the spores of a green mold, \"Penicillium chrysogenum\", in one of his culture plates. He observed that the presence of the mold killed or prevented the growth of the bacteria. Fleming postulated that the mold must secrete an antibacterial substance, which he named penicillin in 1928. Fleming believed that its antibacterial properties could be exploited for chemotherapy. He initially characterized some of its biological properties, and attempted to use a crude preparation to treat some infections, but he was unable to pursue its further development without the aid of trained chemists.",
+        "relevance_score": 71.3989362474313,
+        "rank": 1,
+        "rerank_score": 0.7823978662490845
+      },
+      {
+        "docid": "4502#11",
+        "title": "Biotechnology",
+        "text": "Biotechnology has also led to the development of antibiotics. In 1928, Alexander Fleming discovered the mold \"Penicillium\". His work led to the purification of the antibiotic compound formed by the mold by Howard Florey, Ernst Boris Chain and Norman Heatley – to form what we today know as penicillin. In 1940, penicillin became available for medicinal use to treat bacterial infections in humans.",
+        "relevance_score": 68.4694919942254,
+        "rank": 2,
+        "rerank_score": 0.7820450663566589
+      },
+      {
+        "docid": "51469#14",
+        "title": "Mold",
+        "text": "Alexander Fleming's accidental discovery of the antibiotic penicillin involved a \"Penicillium\" mold called \"Penicillium notatum\" (although the species identity is disputed as possibly being \"Penicillium chrysogenum\" or \"Penicillium rubens\"). Fleming continued to investigate Penicillin, showing that it could inhibit various types of bacteria found in infections and other ailments, but he was unable to produce the compound in large enough amounts necessary for production of a medicine. His work was expanded by a team at Oxford University; Clutterbuck, Lovell, and Raistrick, who began to work on the problem in 1931. This team was also unable to produce the pure compound in any large amount, and found that the purification process diminished its effectiveness and negated the anti-bacterial properties it had.",
+        "relevance_score": 70.79853312833626,
+        "rank": 3,
+        "rerank_score": 0.7325795888900757
+      },
+      {
+        "docid": "1937#9",
+        "title": "Alexander Fleming",
+        "text": "Fleming published his discovery in 1929, in the British \"Journal of Experimental Pathology,\" but little attention was paid to his article. Fleming continued his investigations, but found that cultivating \"Penicillium\" was quite difficult, and that after having grown the mould, it was even more difficult to isolate the antibiotic agent. Fleming's impression was that because of the problem of producing it in quantity, and because its action appeared to be rather slow, penicillin would not be important in treating infection. Fleming also became convinced that penicillin would not last long enough in the human body (\"in vivo\") to kill bacteria effectively. Many clinical tests were inconclusive, probably because it had been used as a surface antiseptic. In the 1930s, Fleming's trials occasionally showed more promise, but Fleming largely abandoned penicillin work, leaving Howard Florey and Ernst Boris Chain at the Radcliffe Infirmary in Oxford to take up research to mass-produce it, with funds from the U.S. and British governments. They started mass production after the bombing of Pearl Harbor. By D-Day in 1944, enough penicillin had been produced to treat all the wounded in the Allied forces.",
+        "relevance_score": 57.548016889490384,
+        "rank": 4,
+        "rerank_score": 0.7186251878738403
+      },
+      {
+        "docid": "4578722#1",
+        "title": "History of penicillin",
+        "text": "The Scottish physician Alexander Fleming was the first to suggest that a \"Penicillium\" mold must secrete an antibacterial substance, and the first to concentrate the active substance involved, which he named penicillin, in 1928. Penicillin was the first modern antibiotic. During the next twelve years Fleming grew, distributed, and studied the original mold, which was determined to be a rare variant of \"Penicillium notatum\" (now \"Penicillium chrysogenum\").",
+        "relevance_score": 63.62597054168027,
+        "rank": 5,
+        "rerank_score": 0.7129648923873901
+      }
+    ]
+  },
+  {
+    "sample_id": 4,
+    "claim_id": 5,
+    "claim": "Fleming named the substance 'penicillin'.",
+    "language": "en",
+    "evidence": [
+      {
+        "docid": "23312#16",
+        "title": "Penicillin",
+        "text": "Once Fleming made his discovery he grew a pure culture and discovered it was a \"Penicillium\" mould, now known as \"Penicillium chrysogenum\". Fleming coined the term \"penicillin\" to describe the filtrate of a broth culture of the \"Penicillium\" mould. Fleming asked C. J. La Touche to help identify the mould, which he incorrectly identified as \"Penicillium rubrum\" (later corrected by Charles Thom). He expressed initial optimism that penicillin would be a useful disinfectant, because of its high potency and minimal toxicity in comparison to antiseptics of the day, and noted its laboratory value in the isolation of \"Bacillus influenzae\" (now called \"Haemophilus influenzae\").",
+        "relevance_score": 31.398882696384316,
+        "rank": 1,
+        "rerank_score": 0.8803670406341553
+      },
+      {
+        "docid": "1937#13",
+        "title": "Alexander Fleming",
+        "text": "Fleming was modest about his part in the development of penicillin, describing his fame as the \"Fleming Myth\" and he praised Florey and Chain for transforming the laboratory curiosity into a practical drug. Fleming was the first to discover the properties of the active substance, giving him the privilege of naming it: penicillin. He also kept, grew, and distributed the original mould for twelve years, and continued until 1940 to try to get help from any chemist who had enough skill to make penicillin. But Sir Henry Harris said in 1998: \"Without Fleming, no Chain; without Chain, no Florey; without Florey, no Heatley; without Heatley, no penicillin.\"",
+        "relevance_score": 40.17260458587412,
+        "rank": 2,
+        "rerank_score": 0.8629529476165771
+      },
+      {
+        "docid": "51469#14",
+        "title": "Mold",
+        "text": "Alexander Fleming's accidental discovery of the antibiotic penicillin involved a \"Penicillium\" mold called \"Penicillium notatum\" (although the species identity is disputed as possibly being \"Penicillium chrysogenum\" or \"Penicillium rubens\"). Fleming continued to investigate Penicillin, showing that it could inhibit various types of bacteria found in infections and other ailments, but he was unable to produce the compound in large enough amounts necessary for production of a medicine. His work was expanded by a team at Oxford University; Clutterbuck, Lovell, and Raistrick, who began to work on the problem in 1931. This team was also unable to produce the pure compound in any large amount, and found that the purification process diminished its effectiveness and negated the anti-bacterial properties it had.",
+        "relevance_score": 26.37562935687464,
+        "rank": 3,
+        "rerank_score": 0.8559868335723877
+      },
+      {
+        "docid": "9949565#9",
+        "title": "Medical microbiology",
+        "text": "In 1929 Alexander Fleming developed the most commonly used antibiotic substance both at the time and now: penicillin.",
+        "relevance_score": 42.26458070044528,
+        "rank": 4,
+        "rerank_score": 0.8526948690414429
+      },
+      {
+        "docid": "1937#9",
+        "title": "Alexander Fleming",
+        "text": "Fleming published his discovery in 1929, in the British \"Journal of Experimental Pathology,\" but little attention was paid to his article. Fleming continued his investigations, but found that cultivating \"Penicillium\" was quite difficult, and that after having grown the mould, it was even more difficult to isolate the antibiotic agent. Fleming's impression was that because of the problem of producing it in quantity, and because its action appeared to be rather slow, penicillin would not be important in treating infection. Fleming also became convinced that penicillin would not last long enough in the human body (\"in vivo\") to kill bacteria effectively. Many clinical tests were inconclusive, probably because it had been used as a surface antiseptic. In the 1930s, Fleming's trials occasionally showed more promise, but Fleming largely abandoned penicillin work, leaving Howard Florey and Ernst Boris Chain at the Radcliffe Infirmary in Oxford to take up research to mass-produce it, with funds from the U.S. and British governments. They started mass production after the bombing of Pearl Harbor. By D-Day in 1944, enough penicillin had been produced to treat all the wounded in the Allied forces.",
+        "relevance_score": 31.77144273606777,
+        "rank": 5,
+        "rerank_score": 0.8370112180709839
+      }
+    ]
+  },
+  {
+    "sample_id": 5,
+    "claim_id": 1,
+    "claim": "पिङ्गलिन को पिछले लोगों द्वारा खोजकरण किया गया है।",
+    "language": "hi",
+    "evidence": [
+      {
+        "docid": "42064#17",
+        "title": "मराठी साहित्य",
+        "text": "इस कालखंड का आरंभ ही दूसरे महायुद्ध के समय निर्मित साहित्य के आधार पर हुआ। इस काल के वाङ्मय से इसके पूर्व के काव्य और कथाओं के प्रमुख आशय को एवं आविष्कारादि संकेतों को जबरदस्त धक्का लगा जिसके फलस्वरूप साहित्य का मूल्य ध्वस्त होता सा प्रतीत होने लगा। मानव जीवन की असफलता, तुच्छता, घृण्यता तथा परस्पर के अकल्पनीय संबंधों का असुंदर जी की कविताओं ने रसिकों की काव्यदृष्टि में ही परिवर्तन कर दिया। गाडगील, भावे, गोखले आदि मनीषियों द्वारा लिखित साहित्य में मनोमय व्यापार, उग्र वासना का प्रक्षोभ, एवं गूढ़ विचारतरंग इत्यादि की जो विशिष्टता अभिव्यंजित की गई, उसके कारण वाङ्मय का स्वरूप ही बदल गया। विदृ दादृ करंदीकर तथा मुक्तिबोध काव्यों में मानववाद की अभिव्यक्ति हुई। ग्रामीण जीवन का यथार्थ दर्शन व्यंकटेश माडगुलकर ने कराया, तो दूसरी ओर माधव शास्त्री जोशी ने मध्यवर्गीय जीवन का वास्तविक चित्र जनता के सम्मुख रखा। संपन्न वर्ग के स्त्रीपुरुषों के सुख एवं दु:खों का दिग्दर्शन रांगणेकर, कालेलकर, बाल कोल्हाटकर इत्यादि द्वारा लिखे नाटकों में दिखाई पड़ता है, जो विद्याघर गोखले द्वारा लिखित नाटक में प्राचीन संगीत नाट्यकला पुनरुज्जीवित हो उठी है। पेंडसे, दांडेकर, माडगूलकर आदि के उपन्यासों में प्रादेशिक हलचल के साथ सूक्ष्म भावना दर्शन को भी महत्त्व दिया गया है। श्री रणजीत देसाई एवं इनामदार ने ऐतिहासिक उपन्यासों का पुनरुद्धार किया। इसी प्रकार तेंदुलकर, साठे, खानोलकर इत्यादि ने नए ढंग के नाटकों का प्रणयन किया। कानेरकर जी द्वारा लिखित प्रयोगी नाटक इसी कालखंड में लिखे गए। मर्ढेकर, वादृ लदृ कुलकर्णी, श्रीदृ केदृ क्षीरसागर, रादृ शंदृ वालिंबे, दिदृ केदृ बेडेकर आदि विद्वानों ने साहित्य के मूल सिद्धांतों की चर्चा करनेवाले अत्यंत मूल्यवान् एवं आलोचनात्मक ग्रंथ प्रकाशित किए। नेने, मिराशी, कोलते, तुलपुल इत्यादि विद्वानों का संशोधनात्मक वाङ्मय भी इसी समय निर्मित हुआ। पुदृ लदृ देशपांडे के ठोस विनोदी साहित्य ने रसिकों के मन में अचल स्थान प्राप्त कर लिया।",
+        "relevance_score": 80.26552392185258,
+        "rank": 1,
+        "rerank_score": 0.44414860010147095
+      },
+      {
+        "docid": "20682#8",
+        "title": "संस्कृत साहित्य",
+        "text": "यहाँ साहित्य शब्द का प्रयोग \"वाङ्मय\" के लिए है। ऊपर वेद संहिताओं का उल्लेख हुआ है। वेद चार हैं- ऋग्वेद, यजुर्वेद, सामवेद और अथर्ववेद। इनकी अनेक शाखाएँ थीं जिनमें बहुत सी लुप्त हो चुकी हैं और कुछ सुरक्षित बच गई हैं जिनके संहिताग्रंथ हमें आज उपलब्ध हैं। इन्हीं की शाखाओं से संबद्ध ब्राह्मण, अरण्यक और उपनिषद् नामक ग्रंथों का विशाल वाङ्मय प्राप्त है। वेदांगों में सर्वप्रमुख कल्पसूत्र हैं जिनके अवांतर वर्गों के रूप में और सूत्र, गृह्यसूत्र और धर्मसूत्र (शुल्बसूत्र भी है) का भी व्यापक साहित्य बचा हुआ है। इन्हीं की व्याख्या के रूप में समयानुसार धर्मसंहिताओं और स्मृतिग्रंथों का जो प्रचुर वाङ्मय बना, मनुस्मृति का उनमें प्रमुख स्थान है। वेदांगों में शिक्षा-प्रातिशाख्य, व्याकरण, निरुक्त, ज्योतिष, छंद शास्त्र से संबद्ध ग्रंथों का वैदिकोत्तर काल से निर्माण होता रहा है। अब तक इन सबका विशाल साहित्य उपलब्ध है। आज ज्योतिष की तीन शाखाएँ-गणित, सिद्धांत और फलित विकसित हो चुकी हैं और भारतीय गणितज्ञों की विश्व की बहुत सी मौलिक देन हैं। पाणिनि और उनसे पूर्वकालीन तथा परवर्ती वैयाकरणों द्वारा जाने कितने व्याकरणों की रचना हुई जिनमें पाणिनि का व्याकरण-संप्रदाय 2500 वर्षों से प्रतिष्ठित माना गया और आज विश्व भर में उसकी महिमा मान्य हो चुकी है। पाणिनीय व्याकरण को त्रिमुनि व्याकरण भी कहते हैं, क्योंकि पाणिनि, कात्यायन और पतंजलि इन तीन मुनियों के सत्प्रयास से यह व्याकरण पूर्णता को प्राप्त किया। यास्क का निरुक्त पाणिनि से पूर्वकाल का ग्रंथ है और उससे भी पहले निरुक्तिविद्या के अनेक आचार्य प्रसिद्ध हो चुके थे। शिक्षाप्रातिशाख्य ग्रंथों में कदाचित् ध्वनिविज्ञान, शास्त्र आदि का जितना प्राचीन और वैज्ञानिक विवेचन भारत की संस्कृत भाषा में हुआ है- वह अतुलनीय और आश्चर्यकारी है। उपवेद के रूप में चिकित्साविज्ञान के रूप में आयुर्वेद विद्या का वैदिकाल से ही प्रचार था और उसके पंडिताग्रंथ (चरकसंहिता, सुश्रुतसंहिता, भेडसंहिता आदि) प्राचीन भारतीय मनीषा के वैज्ञानिक अध्ययन की विस्मयकारी निधि है। इस विद्या के भी विशाल वाङ्मय का कालांतर में निर्माण हुआ। इसी प्रकार धनुर्वेद और राजनीति, गांधर्ववेद आदि को उपवेद कहा गया है तथा इनके विषय को लेकर ग्रंथ के रूप में अथवा प्रसंगतिर्गत सन्दर्भों में पर्याप्त विचार मिलता है।",
+        "relevance_score": 81.12387815923235,
+        "rank": 2,
+        "rerank_score": 0.4231828451156616
+      },
+      {
+        "docid": "174873#0",
+        "title": "अष्टाङ्गहृदयम्",
+        "text": "अष्टाङ्गहृदयम्, आयुर्वेद का प्रसिद्ध ग्रंथ है। इसके रचयिता वाग्भट हैं। इसका रचनाकाल ५०० ईसापूर्व से लेकर २५० ईसापूर्व तक अनुमानित है। इस ग्रन्थ में औषधि (मेडिसिन) और शल्यचिकित्सा दोनो का समावेश है। यह एक संग्रह ग्रन्थ है, जिसमें चरक, सुश्रुत, अष्टांगसंग्रह तथा अन्य अनेक प्राचीन आयुर्वेदीय ग्रन्थों से उद्धरण लिये गये हैं। वाग्भट ने अपने विवेक से अनेक प्रसंगोचित विषयों का प्रस्तुत ग्रन्थ में समावेश किया है। चरकसंहिता, सुश्रुतसंहिता और अष्टाङ्गहृदयम् को सम्मिलित रूप से वृहत्त्रयी कहते हैं।",
+        "relevance_score": 80.658227483937,
+        "rank": 3,
+        "rerank_score": 0.3888976573944092
+      },
+      {
+        "docid": "724221#25",
+        "title": "आयुर्वेद का इतिहास",
+        "text": "आचार्य माधव ने एक विशिष्ट ग्रन्थ का लेखन किया जिसका नाम ‘रोग विनिश्चय‘ रखा। यह ग्रन्थ माधव निदान के नाम से प्रसिद्ध है। आचार्य माधव ने रोग ज्ञान के पाँच साधन बताये है। निदान, पूर्वरूप, रूप, उपशय तथा सम्प्राप्ति। आचार्य माधव का समय छठी सदी के अन्त का बताया जाता है। आचार्य माधव ने अतिसार, पाण्डुरोग, क्षय रोग आदि का विस्तृत वर्णन किया है। आचार्य शार्ङ्गधर को नाड़ी शास्त्र का विशेषज्ञ माना गया है। इन्होने 13 वीं - 14वीं सदी के दौरान दो ग्रन्थों ‘शार्ङ्गधर संहिता' तथा 'शार्ङ्गधर पद्धति‘ की रचना की। आचार्य हाथ में कच्चे धागे के सूत्र के एक सिरे को बांधकर दूसरे सिरे को पकड़कर नाड़ी गति का ज्ञान करके रोग एवं रोगों के सम्बन्ध में सब कुछ सत्य-सत्य बना देते थे।",
+        "relevance_score": 78.98937793310984,
+        "rank": 4,
+        "rerank_score": 0.3823513388633728
+      },
+      {
+        "docid": "222305#12",
+        "title": "नॉल (Knol)",
+        "text": "इस बारे में बहस बनी रही कि स्वार्थ के संभवित् संघर्ष की वजह से क्या गूगल खोज (सर्च) के परिणाम तटस्थ रह सकते हैं। \"सर्च इंजिन लैंड\" के संपादक डैनी सुलेवान के अनुसार, निष्पक्ष बने रहने की जरूरत के लिए गूगल का लक्ष्य नॉल के पेजों की खोज को आसान बनाना था ताकि सर्च इंजिन में संघर्ष न हो.\" सेंटर फॉर डिजिटल डेमोक्रेसी के कार्यकारी निदेशक जेफ़ चेस्टर, ने ठीक ऐसी ही चिंता जताई: \"दिन के अंत में, गूगल के व्यापार और इसके सामाजिक सरोकार के बीच एक मौलिक संघर्ष है। जो आप यहाँ देख रहे हैं, धीरे धीरे, गूगल एक विज्ञापन-आधारित मॉडल को गले लगा रहा है जिसमे जाने की अनुमति पाने को लोग तैयार है उस पर पैसा का एक बड़ा प्रभाव है।\" इस तरह की प्रतिक्रिया पर चिंता के लिए यह बताया गया है कि गूगल के पास पहले से ही अपनी साईट पर बड़ी संख्या में कंटेंट मौजूद हैं जैसेकि गूगल साइट्स, यूट्यूब, ब्लॉगर और गूगल ग्रुप एवं इस मामले में कोई महत्वपूर्ण अंतर नहीं है। एक धाराप्रवाह प्रौद्योगिकी भाष्यकार निकोलस जी कार, ने गूगल की जोड़-तोड़ के प्रभावकारी परिणाम की भविष्यवाणियों को यह कहकर खारिज कर दिया कि सर्च के परिणामों के जरिये गूगल को यह उम्मीद है कि नॉल के पेजों में स्वाभाविक रूप से वृद्धि होगी, जिससे विकिपीडिया को चुनौती का सामना करना पड़ेगा तथा गूगल को एक और क्षेत्र की सामग्री मिलेगी जिसके जरिये गूगल विज्ञापनॉ का व्यवहार कर सकता है।",
+        "relevance_score": 79.59110824509656,
+        "rank": 5,
+        "rerank_score": 0.35637736320495605
+      }
+    ]
+  },
+  {
+    "sample_id": 5,
+    "claim_id": 2,
+    "claim": "इसका खोज ब्रिटेन के एडवियर्थ डेनियल एंटोनियस ने 1928 में किया गया था।",
+    "language": "hi",
+    "evidence": [
+      {
+        "docid": "475641#5",
+        "title": "प्रोमिथियस (फ़िल्म)",
+        "text": "वर्ष 2089 में, आर्कियोलाॅजिस्ट (पुरातत्ववक्ता) एलिज़ाबेथ शाॅ और चार्ली हाॅलोवे स्काॅटलैंड में एक स्टारमैप खोज निकालते हैं जो अन्य प्राचीन सभ्यताओं के समान होने के बावजूद उनसे असंबंधित थी। उन्होंने इनका यही निष्कर्ष लगाया कि यह उन \"इंजीनियर्स\" का न्यौता होगा, जिन्होंने मानवजाति की नींव रखी। पीटर वेयलैंड, जो वेयलैंड कार्पोरेशन के सबसे बुजुर्ग सीइओ है, वे इसपर शीघ्र खोज के लिए पुंजी व्यवस्था करते हैं ताकि उस नक्षत्र नक्शे के जरिए सुदूरवर्ती चाँद एलवी-223 तक पहुंचाने के लिए प्रोमिथियस नाम के वैज्ञानिक जहाज को रवाना कर सके। जहाज में मौजूद सभी दल डेविड नाम के ह्युमैनाॅयड की देखरेख पर सुप्तावस्था में यह अंतरिक्ष यात्रा करते हैं। पृथ्वी से लांच हुए लगभग दो साल बाद 2093 में, मिशन डायरेक्टर मेरेडिथ विकर्स उन इंजीनियर्स को ढुंढ़ने के अभियान के लिए सचेत करती है, और साथ ही बिना इजाजत उनसे किसी तरह की बातचीत न करने की हिदायत देती है।",
+        "relevance_score": 98.99936564434073,
+        "rank": 1,
+        "rerank_score": 0.4733748733997345
+      },
+      {
+        "docid": "175963#4",
+        "title": "पेरासिटामोल",
+        "text": "एसिटेनीलाइड पहला एनिलिन व्युत्पन्न था जिसमें एनाल्जेसिक और एंटीपायरेटिक गुण थे और यह 1886 में बहुत जल्दी ए. काहन और पी. हेप के द्वारा एंटीफेब्रिन के नाम से मेडिकल प्रैक्टिस में आ गया। लेकिन इसके अस्वीकार्य विषाक्त प्रभाव, विशेष रूप से मेथेमोग्लोबिनेमिया के कारण सायनोसिस के खतरे के कारण, कम विषाक्त एनिलिन व्युत्पन्न की खोज पर जोर दिया गया। 1877 में जॉन्स होपकिंस विश्वविद्यालय में हारमोन नोरथ्रोप मोर्स ग्लेशियल एसिटिक अम्ल में टिन के साथ \"पी\"-नाइट्रो फिनोल के अपचयन के माध्यम से पहले से ही पेरासिटामोल का संश्लेषण कर चुके थे।",
+        "relevance_score": 98.73924821283482,
+        "rank": 2,
+        "rerank_score": 0.4563963711261749
+      },
+      {
+        "docid": "179758#2",
+        "title": "प्लूटोनियम",
+        "text": "प्लूटोनियम की खोज वैज्ञानिक एनरिको फर्मी और उनके दल के सदस्यों ने १९३४ में की थी। उस समय फर्मी ने इसे 'हेस्पेरियम' नाम दिया था। उन्होंने १९३८ में अपने नोबेल सम्मान के भाषण में इस तत्त्व के बारे में बताया था। प्लूटोनियम का पहली बार उत्पादन १४ दिसंबर, १९४० को किया गया था और २३ फरवरी, १९४१ को ग्लेन टी. सीबोर्ग, एडविन एम. मैकमिलन, जे.डब्लयू केनेडी ने इसकी रासायनिक पहचान की थी। मैकमिलन ने इसका नाम प्लूटो नामक तत्कालीन ग्रह के आधार पर रखा था। प्लूटोनियम-२३९ का प्रयोग नाभिकीय हथियारों में मुख्य विखंडनीय तत्व के रूप में होता है। यह बड़ी मात्र में ऊष्मीय ऊर्जा और कम स्तर के गामा कणों का उत्सजर्न करता है।",
+        "relevance_score": 100.52918948397095,
+        "rank": 3,
+        "rerank_score": 0.4312777519226074
+      },
+      {
+        "docid": "553377#1",
+        "title": "द इम्पीरियल, नई दिल्ली",
+        "text": "इस होटल का प्रारंभ १९३१ में किया गया था। इस होटल का वास्तु विक्टोरियन तथा औपनिवेशिक शैली के मिश्रण का परिणाम है, जिसे की आर्ट डेको स्टाइल की झलक देते हुए बनाया गया है। इसके शिल्पी डी. जे. ब्लूमफील्ड थे जो कि एडविन ल्युतिनस के सहयोगी थे, जिन्होनें कि ब्रिटिश राज की राजधानी दिल्ली की डिजाईन तैयार की थी तथा उसी साल उसका लोकार्पण भी किया था। इम्पीरियल का निर्माण एस.बी.एस. रंजित सिंह के द्वारा किया गया था जो की ब्रिटिश राज द्वारा सम्मान प्राप्त आर. बी. एस. नरेन सिंह के पुत्र थे। जिनका सम्मान १९११ के राज्याभिषेक दरबार में किया गया था जब की दिल्ली को कलकत्ता के स्थान पर भारत की राजधानी घोषित किया गया था।",
+        "relevance_score": 103.58178977918047,
+        "rank": 4,
+        "rerank_score": 0.4011710286140442
+      },
+      {
+        "docid": "221088#1",
+        "title": "राष्ट्रीय शर्करा संस्थान",
+        "text": "भारत सरकार द्वारा 1920 में नियुक्त, भारतीय शर्करा समिति ने सर्वप्रथम यह सिफारिश की थी कि शर्करा प्रौद्योगिकी में अनुसंधान के लिये एक अखिल भारतीय संस्थान की स्थापना की जाए। 1928 में कृषि में रॉयल आयोग और 1930 में टैरिफ बोर्ड ने भी एक केंद्रीय शर्करा अनुसंधान संस्थान की आश्यकता पर बल दिया था। तदनुसार भारत सरकार ने हरकोर्ट बटलर प्रौद्योगिकी संस्थान (एच.बी.टी.आई) कानपुर के शर्करा अनुभाग का अधिग्रहण करके अक्तूबर 1936 में कानपुर में शर्करा प्रौद्योगिकी के इंपीरियल संस्थान की स्थापना की। यों तो शर्करा प्रौद्योगिकी के इम्पीरियल संस्थान का प्रशासनिक नियंन्त्रण इंपीरियल कृषि अनुसंधान की इंपीरियल परिषद के अधीन रखा गया था। किन्तु वह एच बी टी आई के भवन में ही कार्य करता रहा। 1944 में भारतीय केन्द्रीय गन्ना समिति को सौप दिय गया।",
+        "relevance_score": 99.50890942452462,
+        "rank": 5,
+        "rerank_score": 0.38588112592697144
+      }
+    ]
+  },
+  {
+    "sample_id": 5,
+    "claim_id": 3,
+    "claim": "इसका खोज नवीन जीवनी का फलस्वरूप चिकित्सा करने वाले एक रोगी के लिए खोज किया गया था।",
+    "language": "hi",
+    "evidence": [
+      {
+        "docid": "569741#4",
+        "title": "प्राकृतिक चिकित्सा का इतिहास",
+        "text": "प्राकृतिक चिकित्सा का विकास (अपने पुराने इतिहास के साथ) प्रायः लुप्त जैसा हो गया था। आधुनिक चिकित्सा प्राणालियों के आगमन के फलस्वरूप इस प्रणाली को भूलना स्वाभाविक भी था। इस प्राकृतिक चिकित्सा को दोबारा प्रतिष्ठित करने की मांग उठाने वाले मुख्य चिकित्सकों में बड़े नाम पाश्चातय देशों के एलोपैथिक चिकित्सकों का है। ये वो प्रभावशाली व्यक्ति थे जो औषधि विज्ञान का प्रयोग करते-2 थक चुके थे और स्वयं रोगी होने के बाद निरोग होने में असहाय होते जा रहे थे। उन्होने स्वयं पर प्राकृतिक चिकित्सा के प्रयोग करते हुए स्वयं को स्वस्थ किया और अपने शेष जीवन में इसी चिकित्सा पद्धति द्वारा अनेकों असाध्य रोगियों को उपचार करते हुए इस चिकित्सा पद्धति को दुबारा स्थापित करने की शुरूआत की। इन्होने जीवन यापन तथा रोग उपचार को अधिक तर्कसंगत विधियों द्वारा किये जाने का शुभारम्भ किया।",
+        "relevance_score": 125.00768798435897,
+        "rank": 1,
+        "rerank_score": 0.4853209853172302
+      },
+      {
+        "docid": "46406#2",
+        "title": "सूक्ष्मजैविकी",
+        "text": "[[जीवाणु]] व [[सूक्ष्मजीव|सूक्ष्मजीवों]] को सर्वप्रथम [[एंटोनी वॉन ल्यूवेन्हॉक]] ने [[१६७६]] में स्वनिर्मित एकल-लेंस सूक्ष्मदर्शी से देखा था। ऐसा करके उन्होंने [[जीव विज्ञान]] के क्षेत्र में एक अभूतपूर्व कार्य किया जिसके द्वारा [[जीवाणु विज्ञान]] व सूक्ष्मजैविकी का आरम्भ हुआ। बैक्टीरियम शब्द का प्रयोग काफी बाद ([[१८२८]]) में एह्रेन्बर्ग द्वारा हुआ। यह यूनानी शब्द \"βακτηριον\" से निकला है, जिसका अर्थ है - छोटी सी डंडी। हालॉकि ल्यूवेन्हॉक को प्रथम सूक्ष्मजैविज्ञ कहा गया है, किन्तु प्रथम मान्यता प्राप्त सूक्ष्मजैविक [[रॉबर्ट हूक]] (१६३५-१७०३) को माना जाता है जिन्होंने मोल्ड के फलन का अवलोकन किया था। [[चित्र:Microscope.jpg|thumb|right|200px|सूक्ष्मदर्शी यंत्र]] जीवाणु विज्ञान (जो बाद में सूक्ष्मजैविकी का एक उप-विभाग बन गया) [[फर्डिनैंड कोह्न]] (१८२८–[[१८९८]]) द्बारा स्थापित किया गया माना जाता है। ये एक पादपवैज्ञानिक थे, जिनके शैवाल व प्रकाशसंश्लेषित जीवाणु पर किये गए शोध ने उन्हें [[बैसिलस]] व बैग्गियैटोआ सहित कई अन्य जीवाणुओं का वर्णन करने को प्रेरित किया था। कोह्न ही जीवाणुओं के वर्गीकरण की योजना को परिभाषित करने वाले प्रथम व्यक्ति थे। [[लुई पाश्चर]] ([[१८२२]]–[[१८९५]]) व [[रॉबर्ट कोच]] ([[१८४३]]–[[१९१०]]) कोह्न के समकालीन थे तथा उनको [[आयुर्विज्ञान सूक्ष्मजैविकी]] का संस्थापक माना जाता है। पाश्चर तत्कालीन सहज उत्पादन के सिद्धांत को झुठलाने के लिये अपने द्वारा किये गए श्रेणीबद्ध प्रयोगों के लिये प्रसिद्ध हो चुके थे। इसीसे सूक्ष्मजैविकी का धरातल और ठोस हो गया। पाश्चर ने खाद्य संरक्षण के उपाय खोजे थे ([[पाश्चराइजेशन]]) उन्होंने ही [[ऐन्थ्रैक्स]], फाउल कॉलरा एवं [[रेबीज़]] सहित कई रोगों के सुरक्षा टीकों की खोज की थी। कोच अपने [[रोगों के जीवाणु सिद्धांत]] के लिये प्रसिद्ध थे, जिसके अनुसार कोई विशिष्ट रोग, किसी विशिष्ट रोगजनक सूक्ष्मजीव के कारण ही होता है। उन्होंने ही कोच्स पॉस्ट्युलेट्स बनाये थे। कोच शुद्ध कल्चर में से जीवाणुओं के पृथकीकरण करने वाले वैज्ञानिकों में से प्रथम रहे हैं। जिसके परिणामस्वरूप कई नवीन जीवाणुओं की खोज व वर्णन किए जा सके, जिनमें [[माइकोबैक्टीरियम ट्यूबर्क्युलोसिस]], [[क्षय रोग]] का मूल जीवणु भी रहा।",
+        "relevance_score": 121.95692367680371,
+        "rank": 2,
+        "rerank_score": 0.4176607131958008
+      },
+      {
+        "docid": "47314#6",
+        "title": "प्रतिजैविक",
+        "text": "प्राकृतिक सूक्ष्मजीवों द्वारा उत्पादित प्रतिजैविक दवाओं की खोज सूक्ष्म जीवों के बीच एंटीबायोसिस के निरीक्षण पर पहले किये गये काम से प्रभावित थी। पाश्चर ने कहा 'कि अगर हम कुछ बैक्टीरिया के बीच परस्पर विरोध की प्रक्रिया में हस्तक्षेप कर सकते हैं तो इससे 'शायद चिकित्सा विज्ञान के लिए काफी उम्मीदें पैदा होंगी. \"पेनिसिलियम spp\" के बैक्टीरिया के परस्पर विरोध का सबसे पहला वर्णन जॉन टिंडान ने 1875 में इंग्लैंड में किया। हालांकि, उनके काम पर 1928 में अलेक्जेंडर फ्लेमिंग द्वारा पेनिसिलिन की खोज किये जाने तक वैज्ञानिक समुदाय ने ज्यादा ध्यान नहीं दिया. यहां तक कि तब पेनिसिलिन की चिकित्सीय क्षमता पर पूरा विश्वास नहीं था। उसके दस साल बाद, अर्नस्ट चेन और हावर्ड फ्लोरे ने बी. ब्रेविस द्वारा खोजे गये व जर्मिसिडिन नाम दिये गये एक अन्य प्राकृतिक प्रतिजैविक पदार्थ की खोज के बाद फ्लेमिंग के काम में रुचि ली. 1939 में, रेने डुबोस को जर्मिसिडिन को द्वितीय विश्व युद्ध के दौरान घाव और अल्सर के इलाज में प्रयोग की गयी पहली व्यावसायिक रूप से उत्पादित प्रतिजैविक दवा के रूप में कारगर साबित होने के रूप में अलग पहचान मिली. फ्लोरे और चैन ने पेनिसिलिन को शुद्ध करने में कामयाबी पाई. इस शुद्ध किये गये प्रतिजैविक ने जीवाणुओं की एक विस्तृत श्रृंखला के खिलाफ जीवाणुरोधी गतिविधि का प्रदर्शन किया। इसमें विषाक्तता भी कम थी और प्रतिकूल प्रभाव पैदा किये बिना इन्हें लिया जा सकता था। इसके अलावा, इसकी गतिविधि मवाद जैसे जैविक घटकों से अवरुद्ध नहीं होती थी, जैसा कि उस समय उपलब्ध सिंथेटिक प्रतिजैविक सल्फोनामाइड के प्रयोग से होता था। इतनी ताकतवर प्रतिजैविक की खोज अभूतपूर्व थी। पेनसिलिन के विकास ने समान क्षमताओं वाले प्रतिजैविक यौगिकों की खोज के प्रति नई रुचि पैदा की. पेनिसिलिन की उनकी खोज के कारण अर्नस्ट चेन, हावर्ड फ्लोरे को 1945 में संयुक्त रूप से नोबेल पुरस्कार प्रदान किया गया। फ्लोरे ने पूरी दृढता से और व्यवस्थित रूप से जीवाणुरोधी यौगिकों की खोज प्रारंभ करने का श्रेय डुबोस को दिया. इसी तरह की पद्धति की वजह से जर्मिसिडिन की खोज हुई, जिसने पेनिसिलिन में फ्लोरे की खोज को पुनर्जीवित किया।",
+        "relevance_score": 122.44711138402954,
+        "rank": 3,
+        "rerank_score": 0.4101811647415161
+      },
+      {
+        "docid": "5591#7",
+        "title": "जैवप्रौद्योगिकी",
+        "text": "जीन एक adenovirus सदिश का उपयोग चिकित्सा. एक नए जीन एक adenovirus वेक्टर, जो एक मानव कोशिका में डीएनए संशोधित पेश किया जाता है में डाला जाता है। यदि उपचार सफल होता है, नए जीन एक कार्यात्मक प्रोटीन कर देगा।  जीन थेरेपी इलाज, या यहाँ तक कि इलाज, सामान्य जीन का उपयोग करने के लिए पूरक या दोषपूर्ण जीन की जगह या करने के लिए प्रतिरक्षा के रूप में एक सामान्य समारोह सिलेंडर से कैंसर और एड्स जैसी बीमारियों के आनुवांशिक और अधिग्रहण के लिए इस्तेमाल किया जा सकता है। यह करने के लिए (यानी, शरीर) दैहिक या (यानी, अंडे और शुक्राणु) gametes की कोशिकाओं को लक्षित किया जा सकता. दैहिक जीन थेरेपी में, प्राप्तकर्ता का जीनोम बदल रहा है, लेकिन इस बदलाव के साथ अगली पीढ़ी को पारित नहीं है। इसके विपरीत, germline जीन थेरेपी में, माता पिता के अंडे और शुक्राणु कोशिकाओं अपनी संतानों के लिए परिवर्तन पर पारित करने के प्रयोजन के लिए बदल रहे हैं।  वहाँ मूलतः एक जीन चिकित्सा उपचार लागू करने के दो तरीके हैं:  पूर्व vivo, जो \"शरीर से बाहर\" का अर्थ है - रोगी के रक्त या अस्थि मज्जा की कोशिकाएं निकाल रहे हैं और प्रयोगशाला में हो। वे तो एक वांछित जीन ले वायरस के संपर्क में हैं। वायरस कोशिकाओं में प्रवेश करती है और वांछित जीन कोशिकाओं के डीएनए का हिस्सा बन जाता है। कोशिकाओं को इंजेक्शन द्वारा किया जा रहा एक नस में रोगी को लौट से पहले प्रयोगशाला में बढ़ने की अनुमति है। कोई कोशिकाओं रोगी के शरीर से हटा रहे हैं - vivo, जो \"शरीर के अंदर 'का अर्थ में. इसके बजाय, वैक्टर करने के लिए रोगी के शरीर में कोशिकाओं को वांछित जीन वितरित किया जाता है।  जून 2001 के रूप में, 500 से अधिक नैदानिक ​​जीन थेरेपी के बारे में 3,500 मरीजों को शामिल परीक्षण दुनिया भर में पहचान की गई है। इन के 78% के लगभग संयुक्त राज्य अमेरिका में यूरोप 18% होने के साथ हैं। इन परीक्षणों के कैंसर के विभिन्न प्रकारों पर ध्यान देते हैं, हालांकि अन्य multigenic रोगों के रूप में अच्छी तरह से अध्ययन किया जा रहा है। हाल ही में, दो गंभीर संयुक्त इम्यूनो विकार (\"SCID\") के साथ पैदा हुए बच्चों के लिए किया जा रहा अनुवांशिक इंजीनियर कोशिकाओं के बाद दी इलाज किया गया है सूचित किया गया।  . जीन थेरेपी कई बाधाओं का सामना करने से पहले यह बीमारी के इलाज के लिए एक व्यावहारिक दृष्टिकोण हो सकता है [13] कम से कम इन बाधाओं के चार प्रकार हैं:  जीन डिलीवरी उपकरण. जीन जीन वाहक का उपयोग कर शरीर में डाला जाता है वैक्टर कहा जाता है। सबसे आम वैक्टर अब वायरस, जो encapsulating और एक रोगजनक ढंग से मानव कोशिकाओं को अपने जीन पहुंचाने का एक तरीका विकसित किया है। वैज्ञानिकों रोग के कारण जीन को हटाने और चिकित्सीय जीन डालने से वायरस के जीनोम में हेरफेर. हालांकि, जबकि वायरस प्रभावी रहे हैं, वे विषाक्तता, प्रतिरक्षा और भड़काऊ प्रतिक्रियाओं की तरह, समस्याओं और जीन नियंत्रण और लक्ष्यीकरण मुद्दों मिलवा सकता है। इसके अलावा, जीन को स्थायी उपचारात्मक प्रभाव प्रदान करने के लिए चिकित्सा के क्रम में, शुरू की जीन को मेजबान जीनोम कोशिका के भीतर एकीकृत की जरूरत है। एक यादृच्छिक फैशन, जो एक अंतर्जात मेजबान जीन के विघटन के रूप में अन्य समस्याओं को लागू कर सकते में कुछ वायरल वैक्टर प्रभाव यह.  उच्च लागत. चूंकि जीन थेरेपी अपेक्षाकृत नया है और प्रयोग के स्तर पर है, यह एक महंगा करने की उपचार है। इस वजह वर्तमान अध्ययन सामान्यतः विकसित देशों में, जहाँ अधिक लोगों को इलाज के लिए पैसे खर्च कर सकते में पाया बीमारियों पर ध्यान केंद्रित कर रहे हैं। यह दशकों लेने से पहले विकासशील देशों में इस तकनीक का लाभ ले सकते हैं।  जीनों के कार्यों का सीमित ज्ञान. वैज्ञानिकों वर्तमान में केवल कुछ जीनों के कार्यों का पता है। इसलिए, जीन थेरेपी केवल कुछ जीन है कि किसी विशेष बीमारी का कारण पता कर सकते हैं। इससे भी बदतर, यह ठीक से ज्ञात नहीं है कि क्या जीन एक से अधिक कार्य है, जो कि क्या इस तरह जीन की जगह वास्तव में वांछनीय है के रूप में अनिश्चितता पैदा करता है।  बहुजीनीय विकारों और पर्यावरण का प्रभाव. सबसे आनुवंशिक विकारों एक से अधिक जीन शामिल है। इसके अलावा, ज्यादातर बीमारियों कई जीन और पर्यावरण की बातचीत शामिल है। उदाहरण के लिए, कैंसर के साथ कई लोगों को न केवल विकार के लिए रोग जीन वारिस है, लेकिन यह भी विशिष्ट ट्यूमर शमन जीन वारिस है असफल हो सकता है। आहार, व्यायाम, धूम्रपान और अन्य पर्यावरणीय कारकों को भी अपने रोग में योगदान कर सकते हैं।  मानव जीनोम परियोजना [संपादित करें]",
+        "relevance_score": 121.84018497048287,
+        "rank": 4,
+        "rerank_score": 0.37055790424346924
+      },
+      {
+        "docid": "1025522#15",
+        "title": "बारबरा मैक्लिंटॉक",
+        "text": "अपनी साल भर की अस्थायी नियुक्ति के बाद, मैक्लिंटॉक ने कोल्ड स्प्रिंग हार्बर लेबोरेटरी में पूर्णकालिक अनुसंधान की स्थिति स्वीकार कर ली। वहां, वह बहुत उत्पादक थी और ब्रेक्जिट-फ्यूजन-ब्रिज चक्र के साथ अपना काम जारी रखा, इसका उपयोग एक्स-रे के विकल्प के रूप में नए जीनों को मैप करने के लिए किया गया। 1944 में, इस अवधि के दौरान आनुवांशिकी के क्षेत्र में उनकी प्रमुखता को मान्यता देते हुए, मैकक्लिंटॉक को नेशनल एकेडमी ऑफ साइंसेज के लिए चुना गया था-केवल तीसरी महिला जिसे चुना जाना था। अगले वर्ष वह अमेरिका की जेनेटिक्स सोसायटी की पहली महिला अध्यक्ष बनीं; उन्हें १ ९ ३ ९ में इसका उपाध्यक्ष चुना गया। १ ९ ४४ में उन्होंने जॉर्ज बीडल के सुझाव पर \"न्यूरोस्पोरा क्रैसा\" का एक साइटोजेनेटिक विश्लेषण किया, जिसने एक जीन-एक एंजाइम संबंध प्रदर्शित करने के लिए कवक का उपयोग किया था। उन्होंने स्टैनफोर्ड को अध्ययन के लिए आमंत्रित किया। वह सफलतापूर्वक गुणसूत्रों की संख्या, या वर्णित कुपोषण , \"एन अक्षम्य\" की और प्रजातियों के पूरे जीवन चक्र का वर्णन किया। बीडेल ने कहा \"स्टैनफोर्ड में दो महीने में बारबरा ने न्यूरोसोपा के कोशिका विज्ञान को साफ करने के लिए और अधिक किया था, जो अन्य सभी साइटोलॉजिकल आनुवंशिकीविदों ने पिछले सभी समय में सभी प्रकार के ढालना पर किया था।\" \"एन. क्रैसा\" तब से शास्त्रीय आनुवंशिक विश्लेषण के लिए एक मॉडल प्रजाति बन गया है।",
+        "relevance_score": 121.58035473530754,
+        "rank": 5,
+        "rerank_score": 0.3607938885688782
+      }
+    ]
+  },
+  {
+    "sample_id": 6,
+    "claim_id": 1,
+    "claim": "मशीन शोध (Machine Learning) है जो की डेटा के आधार पर इनपुट को उच्च स्केलिंग और अच्छी तरह से व्यवस्थित करने की शक्ति देता है।",
+    "language": "hi",
+    "evidence": [
+      {
+        "docid": "1024144#33",
+        "title": "ट्यूरिंग टेस्ट",
+        "text": "एक अच्छी तरह से डिज़ाइन किए गए ट्यूरिंग टेस्ट को पास करने के लिए, मशीन को प्राकृतिक भाषा , कारण , ज्ञान का उपयोग करना और सीखना होगा । वीडियो इनपुट शामिल करने के लिए परीक्षण को बढ़ाया जा सकता है, साथ ही एक \"हैच\" भी जिसके माध्यम से वस्तुओं को पारित किया जा सकता है: यह मशीन को दृष्टि और रोबोटिक्स के कौशल को प्रदर्शित करने के लिए मजबूर करेगा। साथ में, ये लगभग सभी प्रमुख समस्याओं का प्रतिनिधित्व करते हैं जिन्हें कृत्रिम बुद्धिमत्ता अनुसंधान हल करना चाहते हैं।",
+        "relevance_score": 165.14478777953218,
+        "rank": 1,
+        "rerank_score": 0.5573210716247559
+      },
+      {
+        "docid": "183031#0",
+        "title": "मशीनी औजार",
+        "text": "उन यांत्रिक युक्तियों को औजारों को मशीनी औजार (machine tool) कहते हैं जो शक्तिचालित होतीं हैं तथा जिनका उपयोग प्राय: मशीनिंग क्रिया द्वारा मशीनों के धातु के कल-पुर्जों के निर्माण में होता है। मशीनिंग क्रिया में वांछित स्थान की धातु को हटाया जाता है। यद्यपि 'मशीनी औजार' प्राय: मानवी श्रम के बजाय शक्तिचालित होते हैं किन्तु समुचित तरीके से व्यवस्थित करने पर इन्हें मानवों द्वारा भी चलाया जा सकता है। प्रौद्योगिकी के बहुत से इतिहासकार यह मानते हैं कि वास्तविक मशीनी औजारों का जन्म तब हुआ जब विभिन्न प्रकार के औजारों की शेपिंग या स्टैंपिंग प्रक्रिया से मानव का सीधा जुड़ाव आवश्यक न रहा।",
+        "relevance_score": 158.60083614380054,
+        "rank": 2,
+        "rerank_score": 0.5523169040679932
+      },
+      {
+        "docid": "1024144#10",
+        "title": "ट्यूरिंग टेस्ट",
+        "text": "ट्यूरिंग, विशेष रूप से, कम से कम 1941 बाद से मशीन इंटेलिजेंस की धारणा से निपट रहे थे और \"कंप्यूटर इंटेलिजेंस\" के शुरुआती ज्ञात उल्लेख 1947 में उनके द्वारा किए गए थे। ट्यूरिंग की रिपोर्ट में, \"इंटेलिजेंट मशीनरी\" \", उन्होंने जांच की\" इस सवाल का कि क्या मशीनरी के लिए बुद्धिमान व्यवहार दिखाना संभव है या नहीं \" और, उस जांच के हिस्से के रूप में, प्रस्तावित किया गया कि उनके बाद के परीक्षणों में अग्रदूत माना जा सकता है: एक पेपर मशीन को तैयार करना मुश्किल नहीं है जो शतरंज का बहुत बुरा खेल नहीं खेलेगी। अब प्रयोग के लिए विषय के रूप में तीन पुरुष प्राप्त करें। A, B और C. A और C बल्कि घटिया शतरंज के खिलाड़ी हैं, B वह ऑपरेटर है जो पेपर मशीन का काम करता है। ... दो कमरों का उपयोग चालों को संप्रेषित करने के लिए कुछ व्यवस्था के साथ किया जाता है, और एक खेल C और A या पेपर मशीन के बीच खेला जाता है। C को यह बताना काफी मुश्किल हो सकता है कि वह कौन सा खेल रहा है। \" कम्प्यूटिंग मशीनरी एंड इंटेलिजेंस \" ( 1950 ) मशीन बुद्धि पर विशेष रूप से ध्यान केंद्रित करने के लिए ट्यूरिंग द्वारा पहला प्रकाशित पत्र था। ट्यूरिंग दावा के साथ 1950 कागज शुरू होता है, \"मैं सवाल पर विचार करने का प्रस्ताव 'मशीनों सोच सकते हैं?'\" वह प्रकाश डाला गया के रूप में, इस तरह के एक प्रश्न के परंपरागत दृष्टिकोण के साथ शुरू करने के लिए है परिभाषाओं , दोनों शब्दों \"मशीन\" को परिभाषित करने और \"बुद्धि\"। ट्यूरिंग ऐसा नहीं करने का विकल्प चुनता है; इसके बजाय वह प्रश्न को एक नए के साथ प्रतिस्थापित करता है, \"जो इसके साथ निकटता से संबंधित है और अपेक्षाकृत अस्पष्ट शब्दों में व्यक्त किया गया है।\" संक्षेप में, वह \"क्या मशीनें सोच सकती हैं\" से प्रश्न को बदलने का प्रस्ताव करती हैं? \"क्या मशीनें ऐसा कर सकती हैं जो हम (सोच के अनुसार) कर सकते हैं?\" नए प्रश्न का लाभ, ट्यूरिंग का तर्क है, यह \"एक व्यक्ति की भौतिक और बौद्धिक क्षमता के बीच एक काफी तेज रेखा खींचता है।\"",
+        "relevance_score": 163.4453413257044,
+        "rank": 3,
+        "rerank_score": 0.5010411739349365
+      },
+      {
+        "docid": "1012573#22",
+        "title": "कृत्रिम बुद्धिके प्रयोग",
+        "text": "ZestFinance ने अपने Zest Automated Machine Learning (ZAML) प्लेटफार्म को विशेष रूप से क्रेडिट अंडरराइटिंग के लिए भी विकसित किया। यह मंच उधारकर्ताओं को स्कोर करने के लिए क्रेडिट उद्योग में उपयोग किए जाने वाले हजारों पारंपरिक और nontraditional चर (खरीद लेनदेन से एक ग्राहक कैसे भरता है) के दसियों का विश्लेषण करने के लिए मशीन लर्निंग का उपयोग करता है। प्लेटफ़ॉर्म विशेष रूप से उन लोगों के लिए क्रेडिट स्कोर आवंटित करने के लिए उपयोगी है, जो सीमित क्रेडिट इतिहास के साथ मिलते हैं, जैसे कि मिलेनियल्स।",
+        "relevance_score": 160.22913225704326,
+        "rank": 4,
+        "rerank_score": 0.49658602476119995
+      },
+      {
+        "docid": "1208567#4",
+        "title": "लेम्पेल-ज़िव-वेल्च",
+        "text": "एन्कोडिंग एल्गोरिथ्म का एक उच्च स्तरीय दृश्य यहां दिखाया गया है:सभी संभावित इनपुट वर्णों के अनुरूप एकल-वर्ण स्ट्रिंग्स को समाहित करने के लिए एक डिक्शनरी शुरू की जाती है (और यदि उनका उपयोग किया जा रहा है तो स्पष्ट और स्टॉप कोड के अलावा और कुछ नहीं)। एल्गोरिथ्म क्रमिक रूप से लंबे समय तक सब्सट्रिंग के लिए इनपुट स्ट्रिंग के माध्यम से स्कैन करके काम करता है जब तक कि यह एक ऐसा नहीं मिलता है जो शब्दकोश में नहीं है। जब इस तरह के एक स्ट्रिंग पाया जाता है, अंतिम वर्ण के बिना स्ट्रिंग के लिए सूचकांक (यानी, सबसे लंबे समय तक सबस्ट्रिंग कि \"है\" शब्दकोश में), शब्दकोश से लिया गया है और उत्पादन के लिए भेज दिया जाता है और नए स्ट्रिंग (अंतिम वर्ण सहित) जोड़ा जाता है अगले उपलब्ध कोड के साथ शब्दकोश में। अंतिम इनपुट चरित्र को फिर सब्सट्रिंग के लिए स्कैन करने के लिए अगले शुरुआती बिंदु के रूप में उपयोग किया जाता है।",
+        "relevance_score": 160.85931832001174,
+        "rank": 5,
+        "rerank_score": 0.46483027935028076
+      }
+    ]
+  },
+  {
+    "sample_id": 6,
+    "claim_id": 2,
+    "claim": "एक विशिष्ट शाखा मशीन लर्निंग (Machine Learning) है जो डेटा को ध्यान में रखकर इनपुट को उच्च स्केलिंग और अच्छी तरह से व्यवस्थित करने की शक्ति देता है।",
+    "language": "hi",
+    "evidence": [
+      {
+        "docid": "1208567#4",
+        "title": "लेम्पेल-ज़िव-वेल्च",
+        "text": "एन्कोडिंग एल्गोरिथ्म का एक उच्च स्तरीय दृश्य यहां दिखाया गया है:सभी संभावित इनपुट वर्णों के अनुरूप एकल-वर्ण स्ट्रिंग्स को समाहित करने के लिए एक डिक्शनरी शुरू की जाती है (और यदि उनका उपयोग किया जा रहा है तो स्पष्ट और स्टॉप कोड के अलावा और कुछ नहीं)। एल्गोरिथ्म क्रमिक रूप से लंबे समय तक सब्सट्रिंग के लिए इनपुट स्ट्रिंग के माध्यम से स्कैन करके काम करता है जब तक कि यह एक ऐसा नहीं मिलता है जो शब्दकोश में नहीं है। जब इस तरह के एक स्ट्रिंग पाया जाता है, अंतिम वर्ण के बिना स्ट्रिंग के लिए सूचकांक (यानी, सबसे लंबे समय तक सबस्ट्रिंग कि \"है\" शब्दकोश में), शब्दकोश से लिया गया है और उत्पादन के लिए भेज दिया जाता है और नए स्ट्रिंग (अंतिम वर्ण सहित) जोड़ा जाता है अगले उपलब्ध कोड के साथ शब्दकोश में। अंतिम इनपुट चरित्र को फिर सब्सट्रिंग के लिए स्कैन करने के लिए अगले शुरुआती बिंदु के रूप में उपयोग किया जाता है।",
+        "relevance_score": 190.24910642759224,
+        "rank": 1,
+        "rerank_score": 0.5429725646972656
+      },
+      {
+        "docid": "1012573#22",
+        "title": "कृत्रिम बुद्धिके प्रयोग",
+        "text": "ZestFinance ने अपने Zest Automated Machine Learning (ZAML) प्लेटफार्म को विशेष रूप से क्रेडिट अंडरराइटिंग के लिए भी विकसित किया। यह मंच उधारकर्ताओं को स्कोर करने के लिए क्रेडिट उद्योग में उपयोग किए जाने वाले हजारों पारंपरिक और nontraditional चर (खरीद लेनदेन से एक ग्राहक कैसे भरता है) के दसियों का विश्लेषण करने के लिए मशीन लर्निंग का उपयोग करता है। प्लेटफ़ॉर्म विशेष रूप से उन लोगों के लिए क्रेडिट स्कोर आवंटित करने के लिए उपयोगी है, जो सीमित क्रेडिट इतिहास के साथ मिलते हैं, जैसे कि मिलेनियल्स।",
+        "relevance_score": 197.48381022225934,
+        "rank": 2,
+        "rerank_score": 0.5157278776168823
+      },
+      {
+        "docid": "1024144#33",
+        "title": "ट्यूरिंग टेस्ट",
+        "text": "एक अच्छी तरह से डिज़ाइन किए गए ट्यूरिंग टेस्ट को पास करने के लिए, मशीन को प्राकृतिक भाषा , कारण , ज्ञान का उपयोग करना और सीखना होगा । वीडियो इनपुट शामिल करने के लिए परीक्षण को बढ़ाया जा सकता है, साथ ही एक \"हैच\" भी जिसके माध्यम से वस्तुओं को पारित किया जा सकता है: यह मशीन को दृष्टि और रोबोटिक्स के कौशल को प्रदर्शित करने के लिए मजबूर करेगा। साथ में, ये लगभग सभी प्रमुख समस्याओं का प्रतिनिधित्व करते हैं जिन्हें कृत्रिम बुद्धिमत्ता अनुसंधान हल करना चाहते हैं।",
+        "relevance_score": 198.7010169626396,
+        "rank": 3,
+        "rerank_score": 0.4569437503814697
+      },
+      {
+        "docid": "1208682#1",
+        "title": "आटोमेटिक बग फिक्सिंग",
+        "text": "विशिष्टता: स्वचालित बग फिक्सिंग अपेक्षित व्यवहार के विनिर्देश के अनुसार किया जाता है जो उदाहरण के लिए एक औपचारिक विनिर्देश या परीक्षण सूट हो सकता है।  एक परीक्षण-सूट - इनपुट / आउटपुट जोड़े कार्यक्रम की कार्यक्षमता को निर्दिष्ट करते हैं, संभवतः खोज में ड्राइव करने के लिए एक परख के रूप में उपयोग किए जा सकते हैं। वास्तव में यह ओरण बग दोष के बीच विभाजित किया जा सकता है जो दोषपूर्ण व्यवहार को उजागर करता है, और प्रतिगमन ओरेकल, जो कार्यक्षमता को एन्क्रिप्ट करता है किसी भी कार्यक्रम की मरम्मत विधि को संरक्षित करना चाहिए। ध्यान दें कि एक परीक्षण सूट आमतौर पर अधूरा है और सभी संभावित मामलों को कवर नहीं करता है। इसलिए, एक मान्य पैच के लिए परीक्षण सूट में सभी इनपुट के लिए अपेक्षित आउटपुट का उत्पादन करना संभव है लेकिन अन्य इनपुट के लिए गलत आउटपुट। इस तरह के मान्य लेकिन गलत पैच का अस्तित्व उत्पन्न-और-मान्य तकनीकों के लिए एक बड़ी चुनौती है। हाल ही में सफल स्वचालित बग-फिक्सिंग तकनीक अक्सर परीक्षण सूट के अलावा अन्य अतिरिक्त जानकारी पर निर्भर करती है, जैसे कि पिछले मानव पैच से सीखी गई जानकारी, मान्य पैच के बीच सही पैच की पहचान करने के लिए।  अपेक्षित व्यवहार को निर्दिष्ट करने का एक अन्य तरीका औपचारिक विनिर्देशों का उपयोग करना है पूर्ण विनिर्देशों के खिलाफ सत्यापन जो कार्यात्मकताओं सहित पूरे कार्यक्रम के व्यवहार को निर्दिष्ट करता है, कम आम है क्योंकि ऐसे विनिर्देश आमतौर पर व्यवहार में उपलब्ध नहीं होते हैं और इस तरह के सत्यापन की गणना लागत है निषेधात्मक।",
+        "relevance_score": 188.93764591972976,
+        "rank": 4,
+        "rerank_score": 0.42467284202575684
+      },
+      {
+        "docid": "184096#0",
+        "title": "स्वचालित गणक मशीन",
+        "text": "स्वचालित गणक मशीन (अंग्रेज़ी:\"आटोमेटिड टैलर मशीन\", लघु:\"एटीएम\") को आटोमेटिक बैंकिंग मशीन, कैश पाइंट, होल इन द वॉल, बैंनकोमैट जैसे नामों से यूरोप, अमेरिका व रूस आदि में जाना जाता है। यह मशीन एक ऐसा दूरसंचार नियंत्रित व कंप्यूटरीकृत उपकरण है जो ग्राहकों को वित्तीय हस्तांतरण से जुड़ी सेवाएं उपलब्ध कराता है। इस हस्तांतरण प्रक्रिया में ग्राहक को कैशियर, क्लर्क या बैंक टैलर की मदद की आवश्यकता नहीं होती है। खुदरा यानि रिटेल बैंकिंग के क्षेत्र में एटीएम बनाने का विचार समांनातर तौर जापान, स्वीडन, अमेरिका और इंग्लैंड में जन्मा और विकसित हुआ। हालांकि सबसे पहले इसका प्रयोग कहां शुरू हुआ यह अभी तय नहीं हो पाया है।",
+        "relevance_score": 189.17370362892032,
+        "rank": 5,
+        "rerank_score": 0.416973352432251
+      }
+    ]
+  },
+  {
+    "sample_id": 7,
+    "claim_id": 1,
+    "claim": "The current Prime Minister of India is Narendra Modi.",
+    "language": "en",
+    "evidence": [
+      {
+        "docid": "444222#0",
+        "title": "Narendra Modi",
+        "text": "Narendra Damodardas Modi (; born 17 September 1950) is an Indian politician serving as the 14th and current Prime Minister of India since 2014. He was the Chief Minister of Gujarat from 2001 to 2014, and is the Member of Parliament for Varanasi. Modi is a member of the Bharatiya Janata Party (BJP) and the Rashtriya Swayamsevak Sangh (RSS).",
+        "relevance_score": 61.719668708180386,
+        "rank": 1,
+        "rerank_score": 0.8396718502044678
+      },
+      {
+        "docid": "7166679#45",
+        "title": "India–United States relations",
+        "text": "Narendra Modi, the Chief Minister of Gujarat between 2001 and 2014, became the Prime Minister of India on 26 May 2014 after the Bharatiya Janata Party decisively won the 2014 Indian General Elections. The US Government completely failed to anticipate the political rise of Narendra Modi to the office of Prime Minister of India.",
+        "relevance_score": 61.25913993196551,
+        "rank": 2,
+        "rerank_score": 0.7781605124473572
+      },
+      {
+        "docid": "1447646#1",
+        "title": "Manohar Parrikar",
+        "text": "Parrikar proposed the name of Narendra Modi as the Prime Ministerial candidate before the 2013 BJP parliamentary elections convention in Goa, later he served in the BJP government under Prime Minister Narendra Modi as Defence Minister of India from 2014 to 2017. He is a former member of the Rajya Sabha from Uttar Pradesh.",
+        "relevance_score": 60.668596022960344,
+        "rank": 3,
+        "rerank_score": 0.7701725959777832
+      },
+      {
+        "docid": "18110396#1",
+        "title": "Varanasi (Lok Sabha constituency)",
+        "text": "Its present MP, since 2014, is the Prime Minister, Narendra Modi.",
+        "relevance_score": 48.33959803366356,
+        "rank": 4,
+        "rerank_score": 0.750975489616394
+      },
+      {
+        "docid": "444222#35",
+        "title": "Narendra Modi",
+        "text": "Modi was sworn in as the Prime Minister of India on 26 May 2014 at the Rashtrapati Bhavan. He became the first Prime Minister born after India's independence from the British Empire. His first cabinet consisted of 45 ministers, 25 fewer than the previous United Progressive Alliance (UPA) government. 21 new ministers were added to the council of ministers in November 2014. During his premiership, India rose to the 77th rank from 142th in the 2018 Ease of Doing Business ranking by World Bank.",
+        "relevance_score": 50.155937320437964,
+        "rank": 5,
+        "rerank_score": 0.7474473714828491
+      }
+    ]
+  }
+]
