@@ -11,16 +11,20 @@ from src.retrieval.miracl_hindi_shard_retriever import (
 from src.retrieval.miracl_bengali_shard_retriever import (
     MIRACLBengaliShardRetriever,
 )
+from src.retrieval.vaarta_marathi_retriever import (
+    VaartaMarathiRetriever,
+)
 from src.retrieval.reranker import EvidenceReranker
 
 
 CLAIMS_FILE = Path("data/processed/claims.json")
 EVIDENCE_FILE = Path("data/processed/evidence.json")
+TEMP_FILE = Path("data/processed/evidence.tmp.json")
 
 CANDIDATE_TOP_K = 200
 FINAL_TOP_K = 5
 
-SUPPORTED_LANGUAGES = {"en", "hi", "bn"}
+SUPPORTED_LANGUAGES = {"en", "hi", "bn", "mr"}
 
 LANGUAGE_NAMES = {
     "english": "en",
@@ -34,15 +38,12 @@ LANGUAGE_NAMES = {
 
 
 def load_claims():
-    with open(CLAIMS_FILE, "r", encoding="utf-8") as file:
+    with CLAIMS_FILE.open("r", encoding="utf-8") as file:
         data = json.load(file)
 
     claims = []
 
     for sample in data.get("samples", []):
-        sample_id = sample.get("sample_id")
-        metadata_language = sample.get("language")
-
         for claim in sample.get("claims", []):
             claim_text = claim.get("claim")
 
@@ -50,59 +51,113 @@ def load_claims():
                 continue
 
             claims.append({
-                "sample_id": sample_id,
+                "sample_id": sample.get("sample_id"),
                 "claim_id": claim.get("claim_id"),
                 "claim": claim_text.strip(),
-                "language": metadata_language,
+                "language": sample.get("language"),
             })
 
     return claims
+
 
 
 def detect_language(claim, metadata_language):
     language = str(metadata_language or "").strip().lower()
     language = LANGUAGE_NAMES.get(language, language)
 
-    # Use valid language metadata when it is actually present.
-    if language in {"en", "hi", "bn", "mr", "ta", "te"}:
+    # Detect the script used in the claim.
+    has_devanagari = any(
+        0x0900 <= ord(char) <= 0x097F
+        for char in claim
+    )
+
+    has_bengali = any(
+        0x0980 <= ord(char) <= 0x09FF
+        for char in claim
+    )
+
+    has_tamil = any(
+        0x0B80 <= ord(char) <= 0x0BFF
+        for char in claim
+    )
+
+    has_telugu = any(
+        0x0C00 <= ord(char) <= 0x0C7F
+        for char in claim
+    )
+
+    # If metadata says English but the text uses a different script,
+    # do not blindly trust the English label.
+    if language == "en":
+        if has_bengali:
+            return "bn"
+        if has_tamil:
+            return "ta"
+        if has_telugu:
+            return "te"
+        if has_devanagari:
+            # Script alone cannot distinguish Hindi from Marathi.
+            return "und"
+
+        return "en"
+
+    # Trust explicit supported metadata when it does not conflict
+    # with an obvious script mismatch.
+    if language in {"hi", "mr"}:
         return language
 
-    # Otherwise, fall back to Unicode script detection.
-    for char in claim:
-        code_point = ord(char)
+    if language == "bn" and has_bengali:
+        return "bn"
 
-        if 0x0980 <= code_point <= 0x09FF:
-            return "bn"
+    if language == "ta" and has_tamil:
+        return "ta"
 
-        if 0x0900 <= code_point <= 0x097F:
-            return "hi"
+    if language == "te" and has_telugu:
+        return "te"
 
-        if 0x0B80 <= code_point <= 0x0BFF:
-            return "ta"
+    # Use script detection when metadata is missing or inconsistent.
+    if has_bengali:
+        return "bn"
 
-        if 0x0C00 <= code_point <= 0x0C7F:
-            return "te"
+    if has_tamil:
+        return "ta"
+
+    if has_telugu:
+        return "te"
+
+    if has_devanagari:
+        return "und"
+
+    if language in {"en", "hi", "mr", "bn", "ta", "te"}:
+        return language
 
     return "en"
 
 
-def save_evidence(evidence):
-    EVIDENCE_FILE.parent.mkdir(parents=True, exist_ok=True)
 
-    with open(EVIDENCE_FILE, "w", encoding="utf-8") as file:
-        json.dump(
-            evidence,
-            file,
-            ensure_ascii=False,
-            indent=2,
-        )
-
-    print(f"\nEvidence saved to: {EVIDENCE_FILE}")
+def claim_key(item):
+    return item.get("sample_id"), item.get("claim_id")
 
 
-def main():
+
+def save_evidence(evidence, output_file):
+    output_file.parent.mkdir(parents=True, exist_ok=True)
+    temp_file = output_file.with_suffix(".tmp.json")
+
+    with temp_file.open("w", encoding="utf-8") as file:
+        json.dump(evidence, file, ensure_ascii=False, indent=2)
+
+    temp_file.replace(output_file)
+    print(f"\nEvidence saved to: {output_file}")
+
+
+def main(output_file=EVIDENCE_FILE):
     claims = load_claims()
-    print(f"Total claims: {len(claims)}")
+    print(f"Total claims in claims.json: {len(claims)}")
+
+    if not claims:
+        print("No claims found. Nothing to retrieve.")
+        return
 
     for item in claims:
         item["detected_language"] = detect_language(
@@ -115,7 +170,7 @@ def main():
             item for item in claims
             if item["detected_language"] == language
         ]
-        for language in ("en", "hi", "bn")
+        for language in ("en", "hi", "bn", "mr")
     }
 
     for language, items in language_groups.items():
@@ -128,37 +183,97 @@ def main():
 
     print(f"Unsupported claims: {len(unsupported_items)}")
 
-    if not claims:
-        print("No claims found. Nothing to retrieve.")
-        return
+    existing_records = []
+
+    if output_file.exists():
+        with output_file.open("r", encoding="utf-8") as file:
+            existing_records = json.load(file)
+            
+        if not isinstance(existing_records, list):
+            raise ValueError("Existing evidence.json must contain a JSON list.")
+
+    existing_by_key = {}
+
+    for record in existing_records:
+        key = claim_key(record)
+
+        if key in existing_by_key:
+            raise ValueError(
+                f"Duplicate claim ID in evidence.json: {key}"
+            )
+
+        existing_by_key[key] = record
+
+    # Reuse records that already have evidence.
+    # Only claims needing retrieval will be processed.
+    pending_by_language = {}
+
+    for language, items in language_groups.items():
+        pending_by_language[language] = [
+            item for item in items
+            if not (
+                existing_by_key.get(claim_key(item), {}).get("evidence")
+            )
+        ]
+
+    pending_total = sum(
+        len(items) for items in pending_by_language.values()
+    )
+
+    print(f"\nClaims needing retrieval: {pending_total}")
+    print(
+        "Existing records with evidence will be reused; "
+        "their retrieval will not run again."
+    )
+
+    all_evidence = dict(existing_by_key)
+
+    # Preserve unsupported claims without loading a retriever.
+    for item in unsupported_items:
+        key = claim_key(item)
+
+        if key not in all_evidence:
+            all_evidence[key] = {
+                "sample_id": item["sample_id"],
+                "claim_id": item["claim_id"],
+                "claim": item["claim"],
+                "language": item["detected_language"],
+                "evidence": [],
+                "retrieval_status": "language_not_supported",
+            }
 
     retrievers = {}
+    pending_en_hi_bn = any(
+        pending_by_language[language]
+        for language in ("en", "hi", "bn")
+    )
 
-    if language_groups["en"]:
+    reranker = EvidenceReranker() if pending_en_hi_bn else None
+
+    if pending_by_language["en"]:
         print("\nLoading English retriever...")
         retrievers["en"] = MIRACLEnglishShardRetriever()
 
-    if language_groups["hi"]:
+    if pending_by_language["hi"]:
         print("\nLoading Hindi retriever...")
         retrievers["hi"] = MIRACLShardRetriever(language="hi")
 
-    if language_groups["bn"]:
+    if pending_by_language["bn"]:
         print("\nLoading Bengali retriever...")
         retrievers["bn"] = MIRACLBengaliShardRetriever()
 
-    reranker = None
+    if pending_by_language["mr"]:
+        print("\nLoading Marathi retriever...")
+        retrievers["mr"] = VaartaMarathiRetriever(
+            candidate_top_k=CANDIDATE_TOP_K,
+            final_top_k=FINAL_TOP_K,
+        )
 
-    if retrievers:
-        print("\nLoading semantic reranker...")
-        reranker = EvidenceReranker()
-
-    all_evidence = {}
-
-    # Process each supported language independently.
-    for language in ("en", "hi", "bn"):
-        items = language_groups[language]
+    for language in ("en", "hi", "bn", "mr"):
+        items = pending_by_language[language]
 
         if not items:
+            print(f"\n{language.upper()}: no new retrieval needed.")
             continue
 
         retriever = retrievers[language]
@@ -172,6 +287,16 @@ def main():
                 [item["claim"] for item in items],
                 top_k=CANDIDATE_TOP_K,
             )
+        elif language == "mr":
+            # Marathi retriever already performs semantic reranking.
+            candidate_batches = [
+                retriever.retrieve(
+                    item["claim"],
+                    candidate_top_k=CANDIDATE_TOP_K,
+                    final_top_k=FINAL_TOP_K,
+                )
+                for item in items
+            ]
         else:
             candidate_batches = [
                 retriever.retrieve(
@@ -182,7 +307,7 @@ def main():
             ]
 
         for item, candidates in zip(items, candidate_batches):
-            key = (item["sample_id"], item["claim_id"])
+            key = claim_key(item)
 
             print(
                 f"\nProcessing {language.upper()} "
@@ -190,19 +315,18 @@ def main():
                 f"Claim {item['claim_id']}"
             )
             print(f"Claim: {item['claim']}")
-            print(f"Candidates retrieved: {len(candidates)}")
+            print(f"Retrieved passages: {len(candidates)}")
 
-            # Do not discard short passages: they may contain
-            # direct and useful evidence.
-            results = (
-                reranker.rerank(
+            if language == "mr":
+                results = candidates
+            elif candidates:
+                results = reranker.rerank(
                     item["claim"],
                     candidates,
                     top_k=FINAL_TOP_K,
                 )
-                if candidates
-                else []
-            )
+            else:
+                results = []
 
             all_evidence[key] = {
                 "sample_id": item["sample_id"],
@@ -215,24 +339,14 @@ def main():
                 ),
             }
 
-    # Preserve unsupported claims in the output.
-    for item in unsupported_items:
-        key = (item["sample_id"], item["claim_id"])
-
-        all_evidence[key] = {
-            "sample_id": item["sample_id"],
-            "claim_id": item["claim_id"],
-            "claim": item["claim"],
-            "language": item["detected_language"],
-            "evidence": [],
-            "retrieval_status": "language_not_supported",
-        }
-
-    # Restore original claim order.
+    # Output claims in their original order, then preserve any
+    # existing records that are not present in claims.json.
     final_evidence = []
+    current_keys = set()
 
     for item in claims:
-        key = (item["sample_id"], item["claim_id"])
+        key = claim_key(item)
+        current_keys.add(key)
 
         if key in all_evidence:
             final_evidence.append(all_evidence[key])
@@ -246,17 +360,25 @@ def main():
                 "retrieval_status": "retrieval_not_completed",
             })
 
-    save_evidence(final_evidence)
+    for record in existing_records:
+        if claim_key(record) not in current_keys:
+            final_evidence.append(record)
+
+    save_evidence(final_evidence, output_file)
 
     print(f"\n{'=' * 70}")
     print("EVIDENCE RETRIEVAL COMPLETED")
     print(f"{'=' * 70}")
-    print(f"Claims processed: {len(final_evidence)}")
+    print(f"Claims in claims.json: {len(claims)}")
+    print(f"Existing records preserved: {len(existing_records)}")
+    print(f"Claims needing retrieval: {pending_total}")
+    print(f"Final evidence records: {len(final_evidence)}")
     print(f"English claims: {len(language_groups['en'])}")
     print(f"Hindi claims: {len(language_groups['hi'])}")
     print(f"Bengali claims: {len(language_groups['bn'])}")
+    print(f"Marathi claims: {len(language_groups['mr'])}")
     print(f"Unsupported claims: {len(unsupported_items)}")
-    print(f"Output: {EVIDENCE_FILE}")
+    print(f"Output: {output_file}")
 
 
 if __name__ == "__main__":

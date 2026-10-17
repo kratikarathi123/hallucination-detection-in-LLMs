@@ -9,6 +9,7 @@ __pycache__/
 # Generated data
 data/processed/*
 !data/processed/claims.json
+!data/processed/evidence.json
 
 # Model/cache files
 *.bin
@@ -31,3 +32,5 @@ Thumbs.db
 
 # Pyserini cache
 .cache/
+# Local transfer backup
+transfer_backup/
