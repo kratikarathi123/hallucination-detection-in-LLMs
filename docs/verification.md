@@ -59,6 +59,41 @@ These come from a first look on a small, DRAFT-labelled set, so treat them as hi
 - `data/eval/`: draft gold labels and a draft false-claim set (en/hi/bn/mr).
   **All labels and the Hindi/Bengali/Marathi translations are unreviewed drafts** (see `review_sheet.csv`).
 
+## Results so far
+### Hindi XNLI: retrieval-free check of the NLI model
+Premise = evidence, hypothesis = claim, so no retrieval is involved and any error is the model's own.
+1,000 random Hindi XNLI test pairs; thresholds tuned on a separate 1,000 validation pairs (support 0.5, contradict 0.3).
+
+| | supported | contradicted | unsupported (neutral) |
+|---|---|---|---|
+| precision | 0.804 | 0.786 | 0.686 |
+| recall | 0.716 | 0.810 | 0.742 |
+| F1 | 0.757 | 0.798 | 0.713 |
+
+Accuracy **0.756**, macro-F1 **0.756** (95% interval about 72.9% to 78.3% for n = 1000).
+Confusion (rows = gold, columns = predicted: supported / contradicted / unsupported):
+supported 242 / 32 / 64, contradicted 17 / 272 / 47, unsupported 42 / 42 / 242.
+
+- About 80% of the 244 errors involve "unsupported"; only 49 are direct flips between supported and contradicted.
+- On clean single premises the model is cautious: 28% of gold-supported pairs were flagged, and 9% of
+  gold-contradicted or unsupported pairs were called supported.
+- Caveats: Hindi only (XNLI has no Bengali or Marathi). The checkpoint was trained on a mixture of NLI data,
+  and overlap with XNLI cannot be excluded here, so treat this as a sanity check rather than a clean generalisation result.
+
+Reproduce (about 6 minutes per 1,000 pairs on a laptop CPU):
+```
+python -m experiments.adapters.xnli --lang hi --split validation --limit 1000 --seed 1 --out data/eval/xnli_hi_val_1000.json
+python -m experiments.adapters.xnli --lang hi --split test --limit 1000 --out data/eval/xnli_hi_test_1000.json
+python -m experiments.evaluate_verification --data data/eval/xnli_hi_test_1000.json --tune-data data/eval/xnli_hi_val_1000.json --out data/results/xnli_hi_results.json
+```
+Package note: on NumPy 1.x machines `datasets` needs `pyarrow<20` and `huggingface-hub<1.0`
+(newer versions break `transformers`).
+
+### Team pipeline data (75 claims, draft labels, so only a hint)
+On the full pipeline, the single-max rule over about 17 chunks per claim looked more lenient than the model does on
+clean single pairs (it never predicted "unsupported"). The likely cause is how scores from many noisy passages are
+combined, not the NLI model itself. This is a hypothesis that still needs the larger reviewed evaluation set.
+
 ## Known limitations
 - Only 6 false/nonsense claims in the current labelled data, none in English or Marathi.
 - Retrieval is same-language only, so cross-lingual verification is not exercised yet.

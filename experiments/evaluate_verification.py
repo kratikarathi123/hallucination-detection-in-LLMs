@@ -78,10 +78,19 @@ def condition(ex):
 
 # ---------------------------------------------------------------- scoring
 
-def score_examples(examples, scorer=nli_scores):
-    """Run the NLI model once per (evidence, claim). Returns passage_results per example."""
+def score_examples(examples, scorer=nli_scores, label="", progress_every=50):
+    """
+    Run the NLI model once per (evidence, claim). Returns passage_results per example.
+    On longer runs it prints a progress line with elapsed time and an estimate of the time left,
+    so a quiet terminal is not mistaken for a frozen one. Do not press Ctrl+C while it runs.
+    """
+    import time
+
+    total = len(examples)
+    show = total >= 2 * progress_every
+    start = time.time()
     all_results = []
-    for ex in examples:
+    for i, ex in enumerate(examples, start=1):
         passage_results = []
         for ev in ex["evidence"]:
             text = (ev.get("text") or "").strip()
@@ -90,6 +99,10 @@ def score_examples(examples, scorer=nli_scores):
                     {"evidence": ev, "scores": scorer(text, ex["claim"])}
                 )
         all_results.append(passage_results)
+        if show and (i % progress_every == 0 or i == total):
+            elapsed = time.time() - start
+            left = elapsed / i * (total - i)
+            print(f"  [{label or 'scoring'}] {i}/{total} done | elapsed {elapsed / 60:.1f} min | about {left / 60:.1f} min left", flush=True)
     return all_results
 
 
@@ -183,7 +196,7 @@ def main():
 
     examples = load_examples(args.data)
     gold = [ex["label"] for ex in examples]
-    results = score_examples(examples)
+    results = score_examples(examples, label="evaluation set")
 
     # Thresholds: tuned on a separate dev set if given, else defaults.
     st, ct = SUPPORT_THRESHOLD, CONTRADICT_THRESHOLD
@@ -191,7 +204,7 @@ def main():
     if args.tune_data:
         tune_ex = load_examples(args.tune_data)
         tune_gold = [ex["label"] for ex in tune_ex]
-        sweep = sweep_thresholds(score_examples(tune_ex), tune_gold)
+        sweep = sweep_thresholds(score_examples(tune_ex, label="tuning set"), tune_gold)
         st, ct = sweep[0]["support_threshold"], sweep[0]["contradict_threshold"]
         print(f"Thresholds tuned on {args.tune_data}: support={st}, contradict={ct}")
     else:

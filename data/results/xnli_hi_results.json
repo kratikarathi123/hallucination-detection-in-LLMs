@@ -1,0 +1,188 @@
+{
+  "thresholds": {
+    "support": 0.5,
+    "contradict": 0.3
+  },
+  "overall": {
+    "n": 1000,
+    "accuracy": 0.756,
+    "macro_f1": 0.7559668030025928,
+    "per_label": {
+      "supported": {
+        "precision": 0.8039867109634552,
+        "recall": 0.7159763313609467,
+        "f1": 0.7574334898278561,
+        "support": 338
+      },
+      "contradicted": {
+        "precision": 0.7861271676300579,
+        "recall": 0.8095238095238095,
+        "f1": 0.7976539589442816,
+        "support": 336
+      },
+      "unsupported": {
+        "precision": 0.6855524079320113,
+        "recall": 0.7423312883435583,
+        "f1": 0.7128129602356407,
+        "support": 326
+      }
+    },
+    "confusion": {
+      "supported": {
+        "supported": 242,
+        "contradicted": 32,
+        "unsupported": 64
+      },
+      "contradicted": {
+        "supported": 17,
+        "contradicted": 272,
+        "unsupported": 47
+      },
+      "unsupported": {
+        "supported": 42,
+        "contradicted": 42,
+        "unsupported": 242
+      }
+    }
+  },
+  "by_language": {
+    "hi": {
+      "n": 1000,
+      "accuracy": 0.756,
+      "macro_f1": 0.7559668030025928,
+      "per_label": {
+        "supported": {
+          "precision": 0.8039867109634552,
+          "recall": 0.7159763313609467,
+          "f1": 0.7574334898278561,
+          "support": 338
+        },
+        "contradicted": {
+          "precision": 0.7861271676300579,
+          "recall": 0.8095238095238095,
+          "f1": 0.7976539589442816,
+          "support": 336
+        },
+        "unsupported": {
+          "precision": 0.6855524079320113,
+          "recall": 0.7423312883435583,
+          "f1": 0.7128129602356407,
+          "support": 326
+        }
+      },
+      "confusion": {
+        "supported": {
+          "supported": 242,
+          "contradicted": 32,
+          "unsupported": 64
+        },
+        "contradicted": {
+          "supported": 17,
+          "contradicted": 272,
+          "unsupported": 47
+        },
+        "unsupported": {
+          "supported": 42,
+          "contradicted": 42,
+          "unsupported": 242
+        }
+      }
+    }
+  },
+  "by_condition": {
+    "mono": {
+      "n": 1000,
+      "accuracy": 0.756,
+      "macro_f1": 0.7559668030025928,
+      "per_label": {
+        "supported": {
+          "precision": 0.8039867109634552,
+          "recall": 0.7159763313609467,
+          "f1": 0.7574334898278561,
+          "support": 338
+        },
+        "contradicted": {
+          "precision": 0.7861271676300579,
+          "recall": 0.8095238095238095,
+          "f1": 0.7976539589442816,
+          "support": 336
+        },
+        "unsupported": {
+          "precision": 0.6855524079320113,
+          "recall": 0.7423312883435583,
+          "f1": 0.7128129602356407,
+          "support": 326
+        }
+      },
+      "confusion": {
+        "supported": {
+          "supported": 242,
+          "contradicted": 32,
+          "unsupported": 64
+        },
+        "contradicted": {
+          "supported": 17,
+          "contradicted": 272,
+          "unsupported": 47
+        },
+        "unsupported": {
+          "supported": 42,
+          "contradicted": 42,
+          "unsupported": 242
+        }
+      }
+    }
+  },
+  "sweep_top10": [
+    {
+      "support_threshold": 0.5,
+      "contradict_threshold": 0.3,
+      "macro_f1": 0.9959887412219336
+    },
+    {
+      "support_threshold": 0.5,
+      "contradict_threshold": 0.4,
+      "macro_f1": 0.9950010978883906
+    },
+    {
+      "support_threshold": 0.3,
+      "contradict_threshold": 0.3,
+      "macro_f1": 0.9949786100840542
+    },
+    {
+      "support_threshold": 0.4,
+      "contradict_threshold": 0.3,
+      "macro_f1": 0.9949786100840542
+    },
+    {
+      "support_threshold": 0.5,
+      "contradict_threshold": 0.5,
+      "macro_f1": 0.9940134784085871
+    },
+    {
+      "support_threshold": 0.5,
+      "contradict_threshold": 0.6,
+      "macro_f1": 0.9940106063390716
+    },
+    {
+      "support_threshold": 0.5,
+      "contradict_threshold": 0.7,
+      "macro_f1": 0.9940106063390716
+    },
+    {
+      "support_threshold": 0.3,
+      "contradict_threshold": 0.4,
+      "macro_f1": 0.9939909756566889
+    },
+    {
+      "support_threshold": 0.4,
+      "contradict_threshold": 0.4,
+      "macro_f1": 0.9939909756566889
+    },
+    {
+      "support_threshold": 0.5,
+      "contradict_threshold": 0.8,
+      "macro_f1": 0.99302445219951
+    }
+  ]
+}
